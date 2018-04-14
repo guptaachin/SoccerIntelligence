@@ -8,28 +8,34 @@ def main():
 
 
 def parse_create():
+    # with open('newdata/team.xlsx', 'r') as f:
+        # for each_team in ijson.items(f, "item"):
+        # team_id = (each_team['TeamId'])
+        # if count == 20:
+        #     break
+        # count += 1
+
+        # if the file exists I donno want waste an API call
+
+    f = open('newdata/team.txt', 'r')
+    content = f.readlines()
     count = 0
-    with open('data/team.json', 'r') as f:
-        for each_team in ijson.items(f, "item"):
-            team_id = (each_team['TeamId'])
-            if count == 15  :
-                break
-            count += 1
+    for line in content:
+        print(line)
+        team_id = line.rstrip()
+        if os.path.exists('newdata/players'+str(team_id)+'.json'):
+            count+=1
+            print('skipping - ','players'+str(team_id))
+            continue
 
-            # if the file exists I donno want waste an API call
+        call_path = get_player_stats_team(team_id)
 
-            if os.path.exists('data/players'+str(team_id)+'.json'):
-                print('skipping - ','players'+str(team_id))
-                continue
+        data = FantasyData.parse_create(call_path)
+        print(data)
+        FantasyData.save_file('newdata/players'+str(team_id)+'.json', data)
 
-            call_path = get_player_stats_team(team_id)
-
-            data = FantasyData.parse_create(call_path)
-            print(data)
-            FantasyData.save_file('data/players'+str(team_id)+'.json', data)
-
-
-
+    print(count)
+    f.close()
 
 
 def get_player_stats_team(team_id):
