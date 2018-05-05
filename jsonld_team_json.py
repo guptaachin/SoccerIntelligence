@@ -7,7 +7,7 @@ data_folder = os.path.join(os.getcwd(), 'newdata')
 
 def main():
     current_file = open(data_folder + '/team.json' , 'r+')
-    jsonld_file = open(data_folder + '/team_ld.json', 'w')
+    jsonld_file = open(data_folder + '/team_ld_karma.json', 'w')
 
     play_dict = {}
     play_dict['@context'] = dict({"schema": "http://schema.org/"})
@@ -33,6 +33,7 @@ def main():
             continue
 
         link = 'http://example.org/team#'+str(item["TeamId"])
+
         graph_dict['schema:team'].append({'@id':link})
         for k, v in item.items():
             mod_k = get_real_key(k)
@@ -41,8 +42,8 @@ def main():
                 newk = 'schema:' + mod_k
                 new_dict[newk] = item[k]
 
-            new_dict['@id'] = 'http://example.org/team#'+str(item['TeamId'])
-            play_dict['@graph'].append(new_dict)
+        new_dict['@id'] = 'http://example.org/team#'+str(item['TeamId'])
+        play_dict['@graph'].append(new_dict)
 
 
     json.dump(play_dict, jsonld_file)

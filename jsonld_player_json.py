@@ -7,7 +7,7 @@ import json
 data_folder = os.path.join(os.getcwd(), 'newdata')
 
 def main():
-    jsonld_file = open(data_folder + '/each_file.json', 'w')
+    jsonld_file = open(data_folder + '/each_file_karma.json', 'w')
     lis_json = []
     for each_file in os.listdir(data_folder):
         m = re.match('(players)(\d*)', each_file)
