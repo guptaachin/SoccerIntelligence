@@ -7,13 +7,6 @@ ttl_file = open(path, 'r')
 
 ttl_new = open(path_new, 'w')
 
-# data=ttl_file.read().replace('\n', '')
-
-# print(data.split(" ."))
-
-
-
-
 all_lines = ttl_file.readlines()
 
 
