@@ -1,6 +1,6 @@
 import ijson
 import urllib.parse
-from fantasy_api_calls import FantasyData
+from Data_Collection.fantasy_api_calls import FantasyData
 import os.path
 
 def main():

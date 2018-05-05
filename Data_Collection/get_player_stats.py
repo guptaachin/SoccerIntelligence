@@ -3,7 +3,7 @@ import ijson
 import os
 import re
 import json
-from fantasy_api_calls import FantasyData
+from Data_Collection.fantasy_api_calls import FantasyData
 
 
 data_folder = os.path.join(os.getcwd(), 'newdata')
