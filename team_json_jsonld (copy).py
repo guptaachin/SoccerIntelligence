@@ -7,17 +7,16 @@ data_folder = os.path.join(os.getcwd(), 'newdata')
 
 def main():
     current_file = open(data_folder + '/team.json' , 'r+')
-    jsonld_file = open(data_folder + '/team_ld.json', 'w')
-    eighty_file = open(data_folder + '/team_80.json', 'w')
+    jsonld_file = open(data_folder + '/team_ld_karma.json', 'w')
 
     play_dict = {}
-    play_dict['@context'] = dict({"schema": "http://schema.org/"})
+    # play_dict['@context'] = dict({"schema": "http://schema.org/"})
     play_dict['@graph'] = []
 
     graph_dict = {}
     graph_dict['@id'] = 'http://example.org/teams'
-    graph_dict['schema:team'] = []
-    play_dict['@graph'].append(graph_dict)
+    # graph_dict['schema:team'] = []
+    # play_dict['@graph'].append(graph_dict)
 
     teams_set = set()
     f = open(data_folder +'/team.txt', 'r')
@@ -26,34 +25,28 @@ def main():
     for line in content:
         team_id = line.rstrip()
         teams_set.add(team_id)
-    count = 0
-    master_list = []
+
     for item in ijson.items(current_file, "item"):
-        count += 1
-        print(count)
         new_dict = {}
 
         if str(item["TeamId"]) not in teams_set:
             continue
-        master_list.append(item)
-        # link = 'http://example.org/team#'+str(item["TeamId"])
-        #
+
+        link = 'http://example.org/team#'+str(item["TeamId"])
+
         # graph_dict['schema:team'].append({'@id':link})
-        # for k, v in item.items():
-        #     mod_k = get_real_key(k)
-        #
-        #     if (mod_k is not ""):
-        #         newk = 'schema:' + mod_k
-        #         new_dict[newk] = item[k]
-        #
-        # new_dict['@id'] = 'http://example.org/team#'+str(item['TeamId'])
-        # play_dict['@graph'].append(new_dict)
+        for k, v in item.items():
+            mod_k = get_real_key(k)
 
-    print(len(master_list))
+            if (mod_k is not ""):
+                newk = mod_k
+                new_dict[newk] = item[k]
 
-    # json.dump(play_dict, jsonld_file)
-    json.dump(master_list, eighty_file)
-    eighty_file.close()
+        new_dict['team_id'] = 'http://example.org/team#'+str(item['TeamId'])
+        play_dict['@graph'].append(new_dict)
+
+
+    json.dump(play_dict, jsonld_file)
     jsonld_file.close()
     current_file.close()
 
@@ -105,6 +98,22 @@ def get_real_key(key):
     #     key = ""
     # elif key == "DraftKingsPosition":
     #     key = ""
+
+    if(key == "Name"):
+        return key
+    elif key == "FullName":
+        return key
+    elif key == "AreaName":
+        return key
+    elif key == "VenueName":
+        return key
+    elif key == "Type":
+        return key
+    elif key == "City":
+        return key
+    else:
+        return ''
+
 
     return key
 

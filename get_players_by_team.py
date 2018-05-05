@@ -12,7 +12,7 @@ def parse_create():
         # for each_team in ijson.items(f, "item"):
         # team_id = (each_team['TeamId'])
         # if count == 20:
-        #     break
+        #     breakam
         # count += 1
 
         # if the file exists I donno want waste an API call
