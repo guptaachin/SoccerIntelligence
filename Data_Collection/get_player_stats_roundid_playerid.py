@@ -1,8 +1,5 @@
-import http.client, urllib.request, urllib.parse, urllib.error, base64
 import ijson
 import os
-import re
-import json
 from Data_Collection.fantasy_api_calls import FantasyData
 
 
