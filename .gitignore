@@ -4,5 +4,5 @@ venv/
 .ipynb_checkpoints/
 .vs/
 __pycache__/
-
+requirements.txt
 
