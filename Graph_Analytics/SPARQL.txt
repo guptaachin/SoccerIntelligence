@@ -1,0 +1,24 @@
+1. PREFIX schema: <http://schema.org/>  PREFIX ud: <http://isi.edu/integration/karma/ontologies/model/> select ?TeamName  Where {  ?teamUri schema:name ?TeamName;  a schema:SportsOrganization. } 
+ 
+This query fetches the names of all the teams present in the database.  The query starts with defining the ontologies we have used in the graph database. The PREFIX lines does this for us. Further the query project the TeamName variable using the keyword select. The variable TeamName is defined in the following section. The first line in the where section fetches all URI and store them in the teamUri variable. The next line contraints the teamUri variable to the URI where corresponding objects are only of the type SportsOrganization. 
+
+2. PREFIX schema: <http://schema.org/> PREFIX ud: <​http://isi.edu/integration/karma/ontologies/model/​> select ?givenName ?lastName where{     ?player schema:nationality “France”.     ?player schema:givenName ?givenName.     ?player schema:familyName ?lastName } 
+ 
+This query fetches the names of the all the players of the given Nationality. For this specific query it will return all the players with nationality France. The triples under the where keyword here starts with fetching all the triples with a predicate schema:nationality and subject “France” with them and storing the result in the variable player.
+
+3.PREFIX sch: <http://schema.org/> select ?name  (count(?news) as ?num) where {      ?x a sch:Person.     ?x sch:name ?name.     ?news sch:mentions ?x     ?x sch:roleName “D” }  group by  ?name having (count(?news) > "+num_news+" ) Order by DESC(count(?news)) 
+ 
+This query extract the players playing at a specific position, with the more than the specific number of news where they are mentioned.  So in plain english you can ask the query to fetch you the name and the number of news mentions for the players playing as D(efender) and having more than 200 mentions in the news. The output of this query looks like this 
+ 
+4. PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX sch: <http://schema.org/> select ?name ?teamName  (count(?news) as ?num) where {      ?x a sch:Person.     ?x sch:name ?name.     ?news sch:mentions ?x.     ?x sch:roleName \""+role+"\".     ?news sch:mentions ?team.     ?team a sch:SportsOrganization.     ?news2 sch:mentions ?team.     ?news2 sch:mentions ?x.     ?team sch:legalName ?teamName.     minus{?x sch:worksFor ?team}. }  group by  ?name ?teamName having (count(?news) > "+num_news+") Order by DESC(count(?news))
+
+This query allows the user to query the extract all the players mentioned with a team name but the player is not a player of that team. We try to get the players rumored to move to a team.  First we get all the players and then get their names. Further the query get all the players specified role(i.e. Position where they play). Then the query goes on to extract the news articles where the teams are mentioned. These news articles are then filtered to only ones with the names of the players and the teams. I.e. only those articles remain which have both the filtered players and teams mentions. Then the all the players and team tuples are removed which have the relation worksFor. Finally we are left with only the news articles with mentioned player and teams which are not directly connected with the worksFor relation. 
+ 
+5. PREFIX schema: <​http://schema.org/​> PREFIX ud: <http://isi.edu/integration/karma/ontologies/model/current#> select ?name ?x  where{     ?player a schema:Person.     ?player schema:about ?stat.     ?player schema:name ?name.     ?player schema:roleName \""+role+"\".     ?stat ud:"+action+" ?x.     ?stat ud:RoundId \"1\".     FILTER(?x >  "+num_action+"). } 
+
+This query gets the stats for the role specified by the user and the actions which was performed more than the specified number of times. 
+
+6. PREFIX schema: <http://schema.org/>\n" + PREFIX ud: <http://isi.edu/integration/karma/ontologies/model/current#> select ?name1 ?name3    (count(?name1) as ?num) Where{     ?p1 a schema:Person.     ?p3 a schema:Person.     ?n1 a schema:NewsArticle.     ?n2 a schema:NewsArticle.     ?n1 schema:mentions ?p1.     ?n1 schema:mentions ?p2.     ?n2 schema:mentions ?p2.     ?n2 schema:mentions ?p3.     ?p1 schema:name ?name1.     ?p3 schema:name ?name3.     FILTER  (?p1 != ?p3).     ?p1 schema:roleName ?role1.  ?p3 schema:roleName ?role3.     FILTER  (?role1 = ?role3).  } group by ?name1 ?name3  having  (count(?name1) >"+num+")  order by DESC(count(?name1))
+
+Here we try to model the structure - p1-n1-p/t-n2-p3. In essence this helps us to get the players who are mentioned on the same news article and play at the same position. We are trying to model the similar players here to suggest a replacement for a player in case the player is leaving a team or rumored to leave a team. This can help the team managers to be prepared ahead of time for any uncertainty of this sort. 
+
