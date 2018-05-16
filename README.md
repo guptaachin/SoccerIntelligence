@@ -1,5 +1,5 @@
 # Soccer Intelligence - Knowledge Graph Approach
-by guptaachin and vpatavee
+by Achin Gupta and Patavee Meemeng
 
 ## Introduction
 
@@ -33,7 +33,7 @@ This project can be organized into the following parts;
 This part will cover crawler (Python Scrapy) and Wrapper (Python BeautifulSoup)
 
 ### Information Extraction
-This part will include Name Entity Recognition (NER) and relation extraction 
+This part will include Named Entity Recognition (Python CRFsuite) and relation extraction 
 
 ### Ontology-Based Semantic Modeling 
 This part will include ontologies we use, and how to map the data to the ontologies using Karma.
