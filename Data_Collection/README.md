@@ -1,5 +1,15 @@
 # Data Collection
 
+## Data Collection with Python Scrapy (for soccer news)
+How to run the project? We enumerate the steps of running the project here.
+
+1. Python [Scrapy](https://scrapy.org/) has to be installed
+2. [Create the project](https://docs.scrapy.org/en/latest/intro/tutorial.html#creating-a-project)
+3. NewsSpiders.py and wrapper.py has to be in folder /spiders
+4. use this command
+> scrapy crawl --nolog (spider name) -o out.json
+
+
 ## Data Collection using the Fantasy API.
 
 *NOTE - Please make sure to get a valid API key [click](https://fantasydata.com/) and paste it in the fantasy_api_calls.py line 12*
