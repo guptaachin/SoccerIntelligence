@@ -1,0 +1,960 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1cb99ifjmx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "goal_news_mention" ;
+	km-dev:modelPublicationTime "1523951681143"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"title\"}],[{\"columnName\":\"relate_players\"},{\"columnName\":\"values\"}],[{\"columnName\":\"author\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"relate_teams\"},{\"columnName\":\"values\"}],[{\"columnName\":\"body\"}],[{\"columnName\":\"tag\"}],[{\"columnName\":\"datetime\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"title\"}],[{\"columnName\":\"relate_players\"},{\"columnName\":\"values\"}],[{\"columnName\":\"author\"}],[{\"columnName\":\"news_id\"}],[{\"columnName\":\"relate_teams\"},{\"columnName\":\"values\"}],[{\"columnName\":\"body\"}],[{\"columnName\":\"tag\"}],[{\"columnName\":\"datetime\"}]]" ;
+	km-dev:hasModelLabel "goal_news_mention" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"news_id\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://example.org/news/\\\"+getValue(\\\"id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"news_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"relate_players\"},
+                    {\"columnName\": \"values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"values\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://example.org/player/\\\"+getValue(\\\"values\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_players\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_players\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"relate_teams\"},
+                    {\"columnName\": \"values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"values\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://example.org/team/\\\"+getValue(\\\"values\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_teams\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_teams\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"news_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/NewsArticle\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/NewsArticle1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/NewsArticle\",
+                    \"DomainId\": \"http://schema.org/NewsArticle1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"schema:NewsArticle1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"news_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"news_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"title\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/NewsArticle\",
+                    \"DomainId\": \"http://schema.org/NewsArticle1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/headline\",
+                    \"DomainLabel\": \"schema:NewsArticle1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"title\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"title\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"author\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/NewsArticle\",
+                    \"DomainId\": \"http://schema.org/NewsArticle1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/author\",
+                    \"DomainLabel\": \"schema:NewsArticle1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"author\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"author\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"body\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/NewsArticle\",
+                    \"DomainId\": \"http://schema.org/NewsArticle1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/articleBody\",
+                    \"DomainLabel\": \"schema:NewsArticle1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"body\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"body\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"datetime\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/NewsArticle\",
+                    \"DomainId\": \"http://schema.org/NewsArticle1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/dateCreated\",
+                    \"DomainLabel\": \"schema:NewsArticle1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"datetime\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"datetime\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"tag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/NewsArticle\",
+                    \"DomainId\": \"http://schema.org/NewsArticle1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/keywords\",
+                    \"DomainLabel\": \"schema:NewsArticle1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"relate_players\"},
+                    {\"columnName\": \"values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/Person\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/Person1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"schema:Person1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_players\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_players\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"relate_teams\"},
+                    {\"columnName\": \"values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/SportsOrganization\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/SportsOrganization1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/SportsOrganization\",
+                    \"DomainId\": \"http://schema.org/SportsOrganization1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"schema:SportsOrganization1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_teams\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"relate_teams\\\"},{\\\"columnName\\\":\\\"values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://schema.org/Person1\",
+                    \"edgeId\": \"http://schema.org/mentions\",
+                    \"edgeTargetUri\": \"http://schema.org/Person\",
+                    \"edgeSourceId\": \"http://schema.org/NewsArticle1\",
+                    \"edgeSourceUri\": \"http://schema.org/NewsArticle\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://schema.org/SportsOrganization1\",
+                    \"edgeId\": \"http://schema.org/mentions\",
+                    \"edgeTargetUri\": \"http://schema.org/SportsOrganization\",
+                    \"edgeSourceId\": \"http://schema.org/NewsArticle1\",
+                    \"edgeSourceUri\": \"http://schema.org/NewsArticle\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 a rr:TriplesMap .
+
+_:node1cb99ifjmx1 km-dev:hasTriplesMap km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx2 rr:tableName "goal_news_mention" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasLogicalTable _:node1cb99ifjmx2 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:logicalTable _:node1cb99ifjmx2 ;
+	rr:subjectMap _:node1cb99ifjmx3 .
+
+_:node1cb99ifjmx1 km-dev:hasSubjectMap _:node1cb99ifjmx3 .
+
+_:node1cb99ifjmx3 km-dev:isPartOfMapping _:node1cb99ifjmx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/NewsArticle1" ;
+	rr:class schema:NewsArticle ;
+	rr:template "http://example.org/news/{id}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_365394a1-489f-4159-a4ea-4b9a4948651d rr:predicate schema:mentions .
+
+km-dev:RefObjectMap_0a0a5cd1-34a2-4e27-9c3b-3ded50826eff a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8a551c22-18ee-40da-9599-837c6ad79da5 ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap km-dev:RefObjectMap_0a0a5cd1-34a2-4e27-9c3b-3ded50826eff .
+
+km-dev:PredicateObjectMap_365394a1-489f-4159-a4ea-4b9a4948651d rr:objectMap km-dev:RefObjectMap_0a0a5cd1-34a2-4e27-9c3b-3ded50826eff .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_365394a1-489f-4159-a4ea-4b9a4948651d .
+
+km-dev:PredicateObjectMap_365394a1-489f-4159-a4ea-4b9a4948651d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_365394a1-489f-4159-a4ea-4b9a4948651d .
+
+km-dev:PredicateObjectMap_7ceeedbe-3587-4655-aed7-566b989ef20c rr:predicate schema:mentions .
+
+km-dev:RefObjectMap_fde7fae9-4bf1-478a-9d72-a3ae306943c3 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2d1cfc57-96a6-46f9-8ac0-5c397a74063f ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap km-dev:RefObjectMap_fde7fae9-4bf1-478a-9d72-a3ae306943c3 .
+
+km-dev:PredicateObjectMap_7ceeedbe-3587-4655-aed7-566b989ef20c rr:objectMap km-dev:RefObjectMap_fde7fae9-4bf1-478a-9d72-a3ae306943c3 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_7ceeedbe-3587-4655-aed7-566b989ef20c .
+
+km-dev:PredicateObjectMap_7ceeedbe-3587-4655-aed7-566b989ef20c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7ceeedbe-3587-4655-aed7-566b989ef20c .
+
+km-dev:PredicateObjectMap_af097fd8-d65b-478e-b770-808409c4cb2a rr:predicate schema:headline .
+
+_:node1cb99ifjmx4 rr:column "title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap _:node1cb99ifjmx4 .
+
+km-dev:PredicateObjectMap_af097fd8-d65b-478e-b770-808409c4cb2a rr:objectMap _:node1cb99ifjmx4 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_af097fd8-d65b-478e-b770-808409c4cb2a .
+
+km-dev:PredicateObjectMap_af097fd8-d65b-478e-b770-808409c4cb2a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_af097fd8-d65b-478e-b770-808409c4cb2a .
+
+km-dev:PredicateObjectMap_8c61e630-f7e6-44ed-a6c8-d243cc9add03 rr:predicate schema:author .
+
+_:node1cb99ifjmx5 rr:column "author" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap _:node1cb99ifjmx5 .
+
+km-dev:PredicateObjectMap_8c61e630-f7e6-44ed-a6c8-d243cc9add03 rr:objectMap _:node1cb99ifjmx5 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_8c61e630-f7e6-44ed-a6c8-d243cc9add03 .
+
+km-dev:PredicateObjectMap_8c61e630-f7e6-44ed-a6c8-d243cc9add03 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8c61e630-f7e6-44ed-a6c8-d243cc9add03 .
+
+km-dev:PredicateObjectMap_ac816757-af91-4eb3-aec4-d3413587a97f rr:predicate schema:articleBody .
+
+_:node1cb99ifjmx6 rr:column "body" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap _:node1cb99ifjmx6 .
+
+km-dev:PredicateObjectMap_ac816757-af91-4eb3-aec4-d3413587a97f rr:objectMap _:node1cb99ifjmx6 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_ac816757-af91-4eb3-aec4-d3413587a97f .
+
+km-dev:PredicateObjectMap_ac816757-af91-4eb3-aec4-d3413587a97f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ac816757-af91-4eb3-aec4-d3413587a97f .
+
+km-dev:PredicateObjectMap_3b6132de-5b69-4030-ac43-1998e37c8e6c rr:predicate schema:keywords .
+
+_:node1cb99ifjmx7 rr:column "tag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap _:node1cb99ifjmx7 .
+
+km-dev:PredicateObjectMap_3b6132de-5b69-4030-ac43-1998e37c8e6c rr:objectMap _:node1cb99ifjmx7 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_3b6132de-5b69-4030-ac43-1998e37c8e6c .
+
+km-dev:PredicateObjectMap_3b6132de-5b69-4030-ac43-1998e37c8e6c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3b6132de-5b69-4030-ac43-1998e37c8e6c .
+
+km-dev:PredicateObjectMap_7eaaefb3-922b-4f1b-baae-0b83a3159d16 rr:predicate schema:dateCreated .
+
+_:node1cb99ifjmx8 rr:column "datetime" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasObjectMap _:node1cb99ifjmx8 .
+
+km-dev:PredicateObjectMap_7eaaefb3-922b-4f1b-baae-0b83a3159d16 rr:objectMap _:node1cb99ifjmx8 .
+
+km-dev:TriplesMap_0320b5c9-b0fd-4a01-bf02-13987b4f52d4 rr:predicateObjectMap km-dev:PredicateObjectMap_7eaaefb3-922b-4f1b-baae-0b83a3159d16 .
+
+km-dev:PredicateObjectMap_7eaaefb3-922b-4f1b-baae-0b83a3159d16 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7eaaefb3-922b-4f1b-baae-0b83a3159d16 .
+
+km-dev:TriplesMap_8a551c22-18ee-40da-9599-837c6ad79da5 a rr:TriplesMap .
+
+_:node1cb99ifjmx1 km-dev:hasTriplesMap km-dev:TriplesMap_8a551c22-18ee-40da-9599-837c6ad79da5 .
+
+km-dev:TriplesMap_8a551c22-18ee-40da-9599-837c6ad79da5 km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx9 rr:tableName "goal_news_mention" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasLogicalTable _:node1cb99ifjmx9 .
+
+km-dev:TriplesMap_8a551c22-18ee-40da-9599-837c6ad79da5 rr:logicalTable _:node1cb99ifjmx9 ;
+	rr:subjectMap _:node1cb99ifjmx10 .
+
+_:node1cb99ifjmx1 km-dev:hasSubjectMap _:node1cb99ifjmx10 .
+
+_:node1cb99ifjmx10 km-dev:isPartOfMapping _:node1cb99ifjmx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/Person1" ;
+	rr:class schema:Person ;
+	rr:template "http://example.org/player/{[\"relate_players\",\"values\"]}" .
+
+km-dev:TriplesMap_2d1cfc57-96a6-46f9-8ac0-5c397a74063f a rr:TriplesMap .
+
+_:node1cb99ifjmx1 km-dev:hasTriplesMap km-dev:TriplesMap_2d1cfc57-96a6-46f9-8ac0-5c397a74063f .
+
+km-dev:TriplesMap_2d1cfc57-96a6-46f9-8ac0-5c397a74063f km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx11 rr:tableName "goal_news_mention" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cb99ifjmx1 .
+
+_:node1cb99ifjmx1 km-dev:hasLogicalTable _:node1cb99ifjmx11 .
+
+km-dev:TriplesMap_2d1cfc57-96a6-46f9-8ac0-5c397a74063f rr:logicalTable _:node1cb99ifjmx11 ;
+	rr:subjectMap _:node1cb99ifjmx12 .
+
+_:node1cb99ifjmx1 km-dev:hasSubjectMap _:node1cb99ifjmx12 .
+
+_:node1cb99ifjmx12 km-dev:isPartOfMapping _:node1cb99ifjmx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/SportsOrganization1" ;
+	rr:class schema:SportsOrganization ;
+	rr:template "http://example.org/team/{[\"relate_teams\",\"values\"]}" .

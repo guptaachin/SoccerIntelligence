@@ -1,0 +1,1279 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1cbbnql1hx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "combine_player.json" ;
+	km-dev:modelPublicationTime "1524033737777"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"PlayerId\"}],[{\"columnName\":\"Gender\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"BirthDate\"}],[{\"columnName\":\"Nationality\"}],[{\"columnName\":\"Weight\"}],[{\"columnName\":\"Position\"}],[{\"columnName\":\"ShortName\"}],[{\"columnName\":\"curr_team_id\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"BirthCity\"}],[{\"columnName\":\"CommonName\"}],[{\"columnName\":\"BirthCountry\"}],[{\"columnName\":\"Height\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Gender\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"BirthDate\"}],[{\"columnName\":\"Nationality\"}],[{\"columnName\":\"Weight\"}],[{\"columnName\":\"Position\"}],[{\"columnName\":\"team_uri\"}],[{\"columnName\":\"player_uri\"}],[{\"columnName\":\"ShortName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"BirthCity\"}],[{\"columnName\":\"CommonName\"}],[{\"columnName\":\"BirthCountry\"}],[{\"columnName\":\"Height\"}]]" ;
+	km-dev:hasModelLabel "combine_player.json" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"curr_team_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"team_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://example.org/team/\\\"+ getValue(\\\"curr_team_id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"curr_team_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"team_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"PlayerId\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"player_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://example.org/player/\\\"+getValue(\\\"PlayerId\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PlayerId\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"player_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"team_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/SportsOrganization\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/SportsOrganization1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/SportsOrganization\",
+                    \"DomainId\": \"http://schema.org/SportsOrganization1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"schema:SportsOrganization1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"team_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"team_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"player_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/Person\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://schema.org/Person1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"schema:Person1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"player_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"player_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"FirstName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://schema.org/givenName\",
+                    \"DomainLabel\": \"Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"LastName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/familyName\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"CommonName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/name\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"CommonName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"CommonName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ShortName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/additionalName\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ShortName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ShortName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Position\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/roleName\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Position\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Position\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Height\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/height\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Height\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Height\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Weight\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/weight\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Weight\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Weight\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Gender\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/gender\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gender\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gender\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/birthDate\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthCity\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/birthPlace\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthCity\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthCity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthCountry\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/birthPlace\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthCountry\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthCountry\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Nationality\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Person\",
+                    \"DomainId\": \"http://schema.org/Person1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://schema.org/nationality\",
+                    \"DomainLabel\": \"schema:Person1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Nationality\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Nationality\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://schema.org/SportsOrganization1\",
+                    \"edgeId\": \"http://schema.org/worksFor\",
+                    \"edgeTargetUri\": \"http://schema.org/SportsOrganization\",
+                    \"edgeSourceId\": \"http://schema.org/Person1\",
+                    \"edgeSourceUri\": \"http://schema.org/Person\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 a rr:TriplesMap .
+
+_:node1cbbnql1hx1 km-dev:hasTriplesMap km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx2 rr:tableName "combine_player.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasLogicalTable _:node1cbbnql1hx2 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:logicalTable _:node1cbbnql1hx2 ;
+	rr:subjectMap _:node1cbbnql1hx3 .
+
+_:node1cbbnql1hx1 km-dev:hasSubjectMap _:node1cbbnql1hx3 .
+
+_:node1cbbnql1hx3 km-dev:isPartOfMapping _:node1cbbnql1hx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/Person1" ;
+	rr:class schema:Person ;
+	rr:template "http://example.org/player/{PlayerId}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_cd2e7801-45d2-4892-8383-25a58f153c68 rr:predicate schema:worksFor .
+
+km-dev:RefObjectMap_ac943ef4-8705-4acc-8a6a-44cb6e28db0f a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_efc8b2ca-3bd2-4442-ae97-cb70e339830b ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap km-dev:RefObjectMap_ac943ef4-8705-4acc-8a6a-44cb6e28db0f .
+
+km-dev:PredicateObjectMap_cd2e7801-45d2-4892-8383-25a58f153c68 rr:objectMap km-dev:RefObjectMap_ac943ef4-8705-4acc-8a6a-44cb6e28db0f .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_cd2e7801-45d2-4892-8383-25a58f153c68 .
+
+km-dev:PredicateObjectMap_cd2e7801-45d2-4892-8383-25a58f153c68 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cd2e7801-45d2-4892-8383-25a58f153c68 .
+
+km-dev:PredicateObjectMap_c88866fa-e863-4c59-9e10-cd8410070086 rr:predicate schema:gender .
+
+_:node1cbbnql1hx4 rr:column "Gender" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx4 .
+
+km-dev:PredicateObjectMap_c88866fa-e863-4c59-9e10-cd8410070086 rr:objectMap _:node1cbbnql1hx4 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_c88866fa-e863-4c59-9e10-cd8410070086 .
+
+km-dev:PredicateObjectMap_c88866fa-e863-4c59-9e10-cd8410070086 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c88866fa-e863-4c59-9e10-cd8410070086 .
+
+km-dev:PredicateObjectMap_c25fbeb2-a121-468f-a828-6a1356b00479 rr:predicate schema:givenName .
+
+_:node1cbbnql1hx5 rr:column "FirstName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx5 .
+
+km-dev:PredicateObjectMap_c25fbeb2-a121-468f-a828-6a1356b00479 rr:objectMap _:node1cbbnql1hx5 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_c25fbeb2-a121-468f-a828-6a1356b00479 .
+
+km-dev:PredicateObjectMap_c25fbeb2-a121-468f-a828-6a1356b00479 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c25fbeb2-a121-468f-a828-6a1356b00479 .
+
+km-dev:PredicateObjectMap_c8302bf4-84aa-497e-8c86-b53663fd1e70 rr:predicate schema:birthDate .
+
+_:node1cbbnql1hx6 rr:column "BirthDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx6 .
+
+km-dev:PredicateObjectMap_c8302bf4-84aa-497e-8c86-b53663fd1e70 rr:objectMap _:node1cbbnql1hx6 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_c8302bf4-84aa-497e-8c86-b53663fd1e70 .
+
+km-dev:PredicateObjectMap_c8302bf4-84aa-497e-8c86-b53663fd1e70 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c8302bf4-84aa-497e-8c86-b53663fd1e70 .
+
+km-dev:PredicateObjectMap_c6487da8-1aca-4635-be23-27187259b5b4 rr:predicate schema:nationality .
+
+_:node1cbbnql1hx7 rr:column "Nationality" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx7 .
+
+km-dev:PredicateObjectMap_c6487da8-1aca-4635-be23-27187259b5b4 rr:objectMap _:node1cbbnql1hx7 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_c6487da8-1aca-4635-be23-27187259b5b4 .
+
+km-dev:PredicateObjectMap_c6487da8-1aca-4635-be23-27187259b5b4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c6487da8-1aca-4635-be23-27187259b5b4 .
+
+km-dev:PredicateObjectMap_5393979f-7737-4b76-aedd-0247b8c71780 rr:predicate schema:weight .
+
+_:node1cbbnql1hx8 rr:column "Weight" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx8 .
+
+km-dev:PredicateObjectMap_5393979f-7737-4b76-aedd-0247b8c71780 rr:objectMap _:node1cbbnql1hx8 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_5393979f-7737-4b76-aedd-0247b8c71780 .
+
+km-dev:PredicateObjectMap_5393979f-7737-4b76-aedd-0247b8c71780 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5393979f-7737-4b76-aedd-0247b8c71780 .
+
+km-dev:PredicateObjectMap_ed429c12-13a9-4fc4-91d3-961a98a8688b rr:predicate schema:roleName .
+
+_:node1cbbnql1hx9 rr:column "Position" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx9 .
+
+km-dev:PredicateObjectMap_ed429c12-13a9-4fc4-91d3-961a98a8688b rr:objectMap _:node1cbbnql1hx9 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_ed429c12-13a9-4fc4-91d3-961a98a8688b .
+
+km-dev:PredicateObjectMap_ed429c12-13a9-4fc4-91d3-961a98a8688b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ed429c12-13a9-4fc4-91d3-961a98a8688b .
+
+km-dev:PredicateObjectMap_8fc99168-8237-4258-8942-a6650d0cce5c rr:predicate schema:additionalName .
+
+_:node1cbbnql1hx10 rr:column "ShortName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx10 .
+
+km-dev:PredicateObjectMap_8fc99168-8237-4258-8942-a6650d0cce5c rr:objectMap _:node1cbbnql1hx10 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_8fc99168-8237-4258-8942-a6650d0cce5c .
+
+km-dev:PredicateObjectMap_8fc99168-8237-4258-8942-a6650d0cce5c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8fc99168-8237-4258-8942-a6650d0cce5c .
+
+km-dev:PredicateObjectMap_db237f00-b07a-4c7a-b06c-c8ffc58b4c1a rr:predicate schema:familyName .
+
+_:node1cbbnql1hx11 rr:column "LastName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx11 .
+
+km-dev:PredicateObjectMap_db237f00-b07a-4c7a-b06c-c8ffc58b4c1a rr:objectMap _:node1cbbnql1hx11 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_db237f00-b07a-4c7a-b06c-c8ffc58b4c1a .
+
+km-dev:PredicateObjectMap_db237f00-b07a-4c7a-b06c-c8ffc58b4c1a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_db237f00-b07a-4c7a-b06c-c8ffc58b4c1a .
+
+km-dev:PredicateObjectMap_7a145e60-3f8e-4b96-b52f-83c92e262d38 rr:predicate schema:birthPlace .
+
+_:node1cbbnql1hx12 rr:column "BirthCity" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx12 .
+
+km-dev:PredicateObjectMap_7a145e60-3f8e-4b96-b52f-83c92e262d38 rr:objectMap _:node1cbbnql1hx12 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_7a145e60-3f8e-4b96-b52f-83c92e262d38 .
+
+km-dev:PredicateObjectMap_7a145e60-3f8e-4b96-b52f-83c92e262d38 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7a145e60-3f8e-4b96-b52f-83c92e262d38 .
+
+km-dev:PredicateObjectMap_1b7ee3fd-6ec3-49c4-8361-7e2a6f5e6691 rr:predicate schema:name .
+
+_:node1cbbnql1hx13 rr:column "CommonName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx13 .
+
+km-dev:PredicateObjectMap_1b7ee3fd-6ec3-49c4-8361-7e2a6f5e6691 rr:objectMap _:node1cbbnql1hx13 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_1b7ee3fd-6ec3-49c4-8361-7e2a6f5e6691 .
+
+km-dev:PredicateObjectMap_1b7ee3fd-6ec3-49c4-8361-7e2a6f5e6691 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1b7ee3fd-6ec3-49c4-8361-7e2a6f5e6691 .
+
+km-dev:PredicateObjectMap_250853e2-d683-4d73-9c06-554274277252 rr:predicate schema:birthPlace .
+
+_:node1cbbnql1hx14 rr:column "BirthCountry" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx14 .
+
+km-dev:PredicateObjectMap_250853e2-d683-4d73-9c06-554274277252 rr:objectMap _:node1cbbnql1hx14 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_250853e2-d683-4d73-9c06-554274277252 .
+
+km-dev:PredicateObjectMap_250853e2-d683-4d73-9c06-554274277252 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_250853e2-d683-4d73-9c06-554274277252 .
+
+km-dev:PredicateObjectMap_7474cefa-2ab0-4ab5-8598-8f2e210d0388 rr:predicate schema:height .
+
+_:node1cbbnql1hx15 rr:column "Height" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasObjectMap _:node1cbbnql1hx15 .
+
+km-dev:PredicateObjectMap_7474cefa-2ab0-4ab5-8598-8f2e210d0388 rr:objectMap _:node1cbbnql1hx15 .
+
+km-dev:TriplesMap_a64cbed8-24ef-4d95-9f87-c4f69a1a8371 rr:predicateObjectMap km-dev:PredicateObjectMap_7474cefa-2ab0-4ab5-8598-8f2e210d0388 .
+
+km-dev:PredicateObjectMap_7474cefa-2ab0-4ab5-8598-8f2e210d0388 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7474cefa-2ab0-4ab5-8598-8f2e210d0388 .
+
+km-dev:TriplesMap_efc8b2ca-3bd2-4442-ae97-cb70e339830b a rr:TriplesMap .
+
+_:node1cbbnql1hx1 km-dev:hasTriplesMap km-dev:TriplesMap_efc8b2ca-3bd2-4442-ae97-cb70e339830b .
+
+km-dev:TriplesMap_efc8b2ca-3bd2-4442-ae97-cb70e339830b km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx16 rr:tableName "combine_player.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cbbnql1hx1 .
+
+_:node1cbbnql1hx1 km-dev:hasLogicalTable _:node1cbbnql1hx16 .
+
+km-dev:TriplesMap_efc8b2ca-3bd2-4442-ae97-cb70e339830b rr:logicalTable _:node1cbbnql1hx16 ;
+	rr:subjectMap _:node1cbbnql1hx17 .
+
+_:node1cbbnql1hx1 km-dev:hasSubjectMap _:node1cbbnql1hx17 .
+
+_:node1cbbnql1hx17 km-dev:isPartOfMapping _:node1cbbnql1hx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/SportsOrganization1" ;
+	rr:class schema:SportsOrganization ;
+	rr:template "http://example.org/team/{curr_team_id}" .

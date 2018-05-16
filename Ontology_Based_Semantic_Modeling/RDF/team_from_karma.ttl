@@ -1,0 +1,1326 @@
+<http://example.org/team/508> <http://schema.org/url> "http://www.afcb.co.uk" .
+<http://example.org/team/508> <http://schema.org/name> "Association Football Club Bournemouth" .
+<http://example.org/team/508> <http://schema.org/fromLocation> <http://example.org/pl_id/Dean%20Court%2C%20Kings%20ParkBH7%207AF> .
+<http://example.org/team/508> <http://schema.org/telephone> "+44 (01202) 726300" .
+<http://example.org/pl_id/Dean%20Court%2C%20Kings%20ParkBH7%207AF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Dean%20Court%2C%20Kings%20ParkBH7%207AF> <http://schema.org/postalCode> "BH7 7AF" .
+<http://example.org/team/508> <http://schema.org/foundingDate> "1890" .
+<http://example.org/team/508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/508> <http://schema.org/additionalName> "Boscombe" .
+<http://example.org/team/508> <http://www.w3.org/2000/01/rdf-schema#label> "508" .
+<http://example.org/pl_id/Dean%20Court%2C%20Kings%20ParkBH7%207AF> <http://schema.org/area> "Bournemouth" .
+<http://example.org/pl_id/Dean%20Court%2C%20Kings%20ParkBH7%207AF> <http://schema.org/address> "Dean Court, Kings Park" .
+<http://example.org/team/508> <http://schema.org/email> "admin@afcb.co.uk" .
+<http://example.org/team/508> <http://schema.org/alternateName> "AFC Bournemouth" .
+<http://example.org/team/508> <http://schema.org/additionalName> "The Cherries" .
+<http://example.org/team/508> <http://schema.org/faxNumber> "+44 (01202) 726373" .
+
+<http://example.org/team/509> <http://schema.org/alternateName> "Arsenal FC" .
+<http://example.org/team/509> <http://schema.org/faxNumber> "+44 (020) 77044001" .
+<http://example.org/team/509> <http://www.w3.org/2000/01/rdf-schema#label> "509" .
+<http://example.org/team/509> <http://schema.org/telephone> "+44 (020) 76195003" .
+<http://example.org/pl_id/75%20Drayton%20ParkN5%201BU> <http://schema.org/area> "London" .
+<http://example.org/team/509> <http://schema.org/fromLocation> <http://example.org/pl_id/75%20Drayton%20ParkN5%201BU> .
+<http://example.org/team/509> <http://schema.org/url> "http://www.arsenal.com" .
+<http://example.org/team/509> <http://schema.org/email> "info@arsenal.co.uk" .
+<http://example.org/team/509> <http://schema.org/foundingDate> "1886" .
+<http://example.org/pl_id/75%20Drayton%20ParkN5%201BU> <http://schema.org/postalCode> "N5 1BU" .
+<http://example.org/pl_id/75%20Drayton%20ParkN5%201BU> <http://schema.org/address> "75 Drayton Park" .
+<http://example.org/team/509> <http://schema.org/additionalName> "The Gunners" .
+<http://example.org/pl_id/75%20Drayton%20ParkN5%201BU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/509> <http://schema.org/name> "Arsenal Football Club " .
+
+<http://example.org/team/510> <http://schema.org/alternateName> "Aston Villa FC" .
+<http://example.org/pl_id/Villa%20ParkB6%206HE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/510> <http://schema.org/faxNumber> "+44 (0121) 3222107" .
+<http://example.org/pl_id/Villa%20ParkB6%206HE> <http://schema.org/address> "Villa Park" .
+<http://example.org/pl_id/Villa%20ParkB6%206HE> <http://schema.org/postalCode> "B6 6HE" .
+<http://example.org/team/510> <http://schema.org/name> "Aston Villa Football Club" .
+<http://example.org/team/510> <http://schema.org/additionalName> "The Lions" .
+<http://example.org/team/510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/510> <http://schema.org/foundingDate> "1872" .
+<http://example.org/team/510> <http://schema.org/fromLocation> <http://example.org/pl_id/Villa%20ParkB6%206HE> .
+<http://example.org/team/510> <http://schema.org/additionalName> "The Claret and Blue" .
+<http://example.org/team/510> <http://schema.org/url> "http://www.avfc.co.uk" .
+<http://example.org/team/510> <http://schema.org/additionalName> "The Villa" .
+<http://example.org/team/510> <http://www.w3.org/2000/01/rdf-schema#label> "510" .
+<http://example.org/team/510> <http://schema.org/telephone> "+44 (0121) 3272299" .
+<http://example.org/pl_id/Villa%20ParkB6%206HE> <http://schema.org/area> "Birmingham" .
+
+<http://example.org/team/511> <http://schema.org/name> "Chelsea Football Club" .
+<http://example.org/team/511> <http://www.w3.org/2000/01/rdf-schema#label> "511" .
+<http://example.org/pl_id/Fulham%20RoadSW6%201HS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/511> <http://schema.org/url> "http://www.chelseafc.com" .
+<http://example.org/team/511> <http://schema.org/additionalName> "The Pensioners" .
+<http://example.org/team/511> <http://schema.org/alternateName> "Chelsea FC" .
+<http://example.org/team/511> <http://schema.org/telephone> "+44 (0871) 9841955" .
+<http://example.org/pl_id/Fulham%20RoadSW6%201HS> <http://schema.org/area> "London" .
+<http://example.org/team/511> <http://schema.org/faxNumber> "+44 (207) 9152900" .
+<http://example.org/pl_id/Fulham%20RoadSW6%201HS> <http://schema.org/address> "Fulham Road" .
+<http://example.org/team/511> <http://schema.org/foundingDate> "1905" .
+<http://example.org/pl_id/Fulham%20RoadSW6%201HS> <http://schema.org/postalCode> "SW6 1HS" .
+<http://example.org/team/511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/511> <http://schema.org/additionalName> "The Blues" .
+<http://example.org/team/511> <http://schema.org/fromLocation> <http://example.org/pl_id/Fulham%20RoadSW6%201HS> .
+
+<http://example.org/team/512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/512> <http://schema.org/foundingDate> "1905" .
+<http://example.org/team/512> <http://schema.org/faxNumber> "+44 (020) 87715311" .
+<http://example.org/team/512> <http://schema.org/additionalName> "Glaziers" .
+<http://example.org/team/512> <http://schema.org/email> "info@cpfc.co.uk" .
+<http://example.org/team/512> <http://schema.org/alternateName> "Crystal Palace FC" .
+<http://example.org/pl_id/Whitehorse%20LaneSE25%206PU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/512> <http://schema.org/fromLocation> <http://example.org/pl_id/Whitehorse%20LaneSE25%206PU> .
+<http://example.org/team/512> <http://schema.org/url> "http://www.cpfc.co.uk" .
+<http://example.org/team/512> <http://schema.org/additionalName> "Palace" .
+<http://example.org/team/512> <http://www.w3.org/2000/01/rdf-schema#label> "512" .
+<http://example.org/pl_id/Whitehorse%20LaneSE25%206PU> <http://schema.org/area> "London" .
+<http://example.org/team/512> <http://schema.org/telephone> "+44 (020) 87686000" .
+<http://example.org/team/512> <http://schema.org/name> "Crystal Palace Football Club" .
+<http://example.org/team/512> <http://schema.org/additionalName> "Eagles" .
+<http://example.org/pl_id/Whitehorse%20LaneSE25%206PU> <http://schema.org/address> "Whitehorse Lane" .
+<http://example.org/pl_id/Whitehorse%20LaneSE25%206PU> <http://schema.org/postalCode> "SE25 6PU" .
+
+<http://example.org/pl_id/Goodison%20ParkL4%204EL> <http://schema.org/address> "Goodison Park" .
+<http://example.org/team/513> <http://schema.org/fromLocation> <http://example.org/pl_id/Goodison%20ParkL4%204EL> .
+<http://example.org/team/513> <http://schema.org/email> "everton@evertonfc.com" .
+<http://example.org/team/513> <http://schema.org/additionalName> "The Toffees" .
+<http://example.org/team/513> <http://schema.org/additionalName> "The Blues" .
+<http://example.org/team/513> <http://schema.org/telephone> "+44 (0871) 6631878" .
+<http://example.org/team/513> <http://schema.org/name> "Everton Football Club" .
+<http://example.org/pl_id/Goodison%20ParkL4%204EL> <http://schema.org/postalCode> "L4 4EL" .
+<http://example.org/team/513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Goodison%20ParkL4%204EL> <http://schema.org/area> "Liverpool" .
+<http://example.org/team/513> <http://schema.org/foundingDate> "1878" .
+<http://example.org/team/513> <http://schema.org/alternateName> "Everton FC" .
+<http://example.org/pl_id/Goodison%20ParkL4%204EL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/513> <http://www.w3.org/2000/01/rdf-schema#label> "513" .
+<http://example.org/team/513> <http://schema.org/url> "http://www.evertonfc.com" .
+
+<http://example.org/team/514> <http://schema.org/url> "http://www.lcfc.com" .
+<http://example.org/team/514> <http://schema.org/additionalName> "The Foxes" .
+<http://example.org/team/514> <http://www.w3.org/2000/01/rdf-schema#label> "514" .
+<http://example.org/team/514> <http://schema.org/fromLocation> <http://example.org/pl_id/The%20Walkers%20Stadium%2C%20Filbert%20WayLE2%207FL> .
+<http://example.org/team/514> <http://schema.org/foundingDate> "1884" .
+<http://example.org/pl_id/The%20Walkers%20Stadium%2C%20Filbert%20WayLE2%207FL> <http://schema.org/postalCode> "LE2 7FL" .
+<http://example.org/team/514> <http://schema.org/alternateName> "Leicester City FC" .
+<http://example.org/pl_id/The%20Walkers%20Stadium%2C%20Filbert%20WayLE2%207FL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/514> <http://schema.org/name> "Leicester City Football Club" .
+<http://example.org/pl_id/The%20Walkers%20Stadium%2C%20Filbert%20WayLE2%207FL> <http://schema.org/area> "Leicester" .
+<http://example.org/team/514> <http://schema.org/telephone> "+44 (0844) 8156000" .
+<http://example.org/pl_id/The%20Walkers%20Stadium%2C%20Filbert%20WayLE2%207FL> <http://schema.org/address> "The Walkers Stadium, Filbert Way" .
+<http://example.org/team/514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+
+<http://example.org/pl_id/Anfield%20RoadL4%20OTH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/515> <http://schema.org/foundingDate> "1892" .
+<http://example.org/team/515> <http://schema.org/telephone> "+44 (0844) 4993000" .
+<http://example.org/team/515> <http://schema.org/additionalName> "The Reds" .
+<http://example.org/team/515> <http://schema.org/faxNumber> "+44 (0151) 2647213" .
+<http://example.org/team/515> <http://schema.org/url> "http://www.liverpoolfc.tv" .
+<http://example.org/pl_id/Anfield%20RoadL4%20OTH> <http://schema.org/area> "Liverpool" .
+<http://example.org/team/515> <http://www.w3.org/2000/01/rdf-schema#label> "515" .
+<http://example.org/team/515> <http://schema.org/fromLocation> <http://example.org/pl_id/Anfield%20RoadL4%20OTH> .
+<http://example.org/pl_id/Anfield%20RoadL4%20OTH> <http://schema.org/postalCode> "L4 OTH" .
+<http://example.org/team/515> <http://schema.org/email> "customercontact@liverpoolfc.tv" .
+<http://example.org/team/515> <http://schema.org/name> "Liverpool Football Club" .
+<http://example.org/pl_id/Anfield%20RoadL4%20OTH> <http://schema.org/address> "Anfield Road" .
+<http://example.org/team/515> <http://schema.org/alternateName> "Liverpool FC" .
+
+<http://example.org/pl_id/SportCityM11%203FF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/516> <http://schema.org/fromLocation> <http://example.org/pl_id/SportCityM11%203FF> .
+<http://example.org/team/516> <http://schema.org/name> "Manchester City Football Club" .
+<http://example.org/team/516> <http://schema.org/foundingDate> "1880" .
+<http://example.org/pl_id/SportCityM11%203FF> <http://schema.org/postalCode> "M11 3FF" .
+<http://example.org/team/516> <http://schema.org/email> "mancity@mancity.com" .
+<http://example.org/pl_id/SportCityM11%203FF> <http://schema.org/area> "Manchester" .
+<http://example.org/pl_id/SportCityM11%203FF> <http://schema.org/address> "SportCity" .
+<http://example.org/team/516> <http://schema.org/additionalName> "The Sky Blues" .
+<http://example.org/team/516> <http://schema.org/additionalName> "City" .
+<http://example.org/team/516> <http://schema.org/additionalName> "The Citizens" .
+<http://example.org/team/516> <http://schema.org/alternateName> "Manchester City FC" .
+<http://example.org/team/516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/516> <http://schema.org/telephone> "+44 (0870) 0621894" .
+<http://example.org/team/516> <http://www.w3.org/2000/01/rdf-schema#label> "516" .
+<http://example.org/team/516> <http://schema.org/faxNumber> "+44 (0161) 4387999" .
+<http://example.org/team/516> <http://schema.org/url> "https://www.mancity.com" .
+
+<http://example.org/pl_id/Sir%20Matt%20Busby%20WayM16%200RA> <http://schema.org/address> "Sir Matt Busby Way" .
+<http://example.org/team/517> <http://schema.org/telephone> "+44 (0161) 8688000" .
+<http://example.org/team/517> <http://schema.org/url> "http://www.manutd.com" .
+<http://example.org/team/517> <http://www.w3.org/2000/01/rdf-schema#label> "517" .
+<http://example.org/team/517> <http://schema.org/alternateName> "Manchester United FC" .
+<http://example.org/team/517> <http://schema.org/fromLocation> <http://example.org/pl_id/Sir%20Matt%20Busby%20WayM16%200RA> .
+<http://example.org/pl_id/Sir%20Matt%20Busby%20WayM16%200RA> <http://schema.org/postalCode> "M16 0RA" .
+<http://example.org/team/517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/517> <http://schema.org/email> "enquiries@manutd.co.uk" .
+<http://example.org/pl_id/Sir%20Matt%20Busby%20WayM16%200RA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Sir%20Matt%20Busby%20WayM16%200RA> <http://schema.org/area> "Manchester" .
+<http://example.org/team/517> <http://schema.org/foundingDate> "1878" .
+<http://example.org/team/517> <http://schema.org/name> "Manchester United Football Club" .
+<http://example.org/team/517> <http://schema.org/additionalName> "The Red Devils" .
+
+<http://example.org/team/518> <http://schema.org/alternateName> "Newcastle United FC" .
+<http://example.org/team/518> <http://schema.org/foundingDate> "1881" .
+<http://example.org/team/518> <http://schema.org/email> "admin@nufc.co.uk" .
+<http://example.org/team/518> <http://schema.org/url> "http://www.nufc.co.uk" .
+<http://example.org/pl_id/Sports%20Direct%20ArenaNE1%204ST> <http://schema.org/postalCode> "NE1 4ST" .
+<http://example.org/team/518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/518> <http://www.w3.org/2000/01/rdf-schema#label> "518" .
+<http://example.org/pl_id/Sports%20Direct%20ArenaNE1%204ST> <http://schema.org/address> "Sports Direct Arena" .
+<http://example.org/pl_id/Sports%20Direct%20ArenaNE1%204ST> <http://schema.org/area> "Newcastle upon Tyne" .
+<http://example.org/team/518> <http://schema.org/additionalName> "The Magpies" .
+<http://example.org/team/518> <http://schema.org/fromLocation> <http://example.org/pl_id/Sports%20Direct%20ArenaNE1%204ST> .
+<http://example.org/team/518> <http://schema.org/additionalName> "The Toon" .
+<http://example.org/team/518> <http://schema.org/name> "Newcastle United Football Club " .
+<http://example.org/pl_id/Sports%20Direct%20ArenaNE1%204ST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/518> <http://schema.org/additionalName> "Geordies" .
+
+<http://example.org/pl_id/Carrow%20RoadNR1%201JE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/519> <http://schema.org/alternateName> "Norwich City FC" .
+<http://example.org/team/519> <http://schema.org/email> "reception@ncfc-canaries.co.uk" .
+<http://example.org/pl_id/Carrow%20RoadNR1%201JE> <http://schema.org/address> "Carrow Road" .
+<http://example.org/team/519> <http://schema.org/url> "http://www.canaries.co.uk" .
+<http://example.org/pl_id/Carrow%20RoadNR1%201JE> <http://schema.org/postalCode> "NR1 1JE" .
+<http://example.org/pl_id/Carrow%20RoadNR1%201JE> <http://schema.org/area> "Norwich" .
+<http://example.org/team/519> <http://schema.org/name> "Norwich City Football Club" .
+<http://example.org/team/519> <http://schema.org/additionalName> "Yellows" .
+<http://example.org/team/519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/519> <http://schema.org/additionalName> "The Canaries" .
+<http://example.org/team/519> <http://schema.org/foundingDate> "1902" .
+<http://example.org/team/519> <http://schema.org/additionalName> "The Citizens" .
+<http://example.org/team/519> <http://schema.org/fromLocation> <http://example.org/pl_id/Carrow%20RoadNR1%201JE> .
+<http://example.org/team/519> <http://www.w3.org/2000/01/rdf-schema#label> "519" .
+
+<http://example.org/pl_id/Britannia%20RoadSO14%205FP> <http://schema.org/address> "Britannia Road" .
+<http://example.org/team/520> <http://schema.org/additionalName> "Saints" .
+<http://example.org/team/520> <http://schema.org/email> "sfc@saintsfc.co.uk" .
+<http://example.org/team/520> <http://schema.org/fromLocation> <http://example.org/pl_id/Britannia%20RoadSO14%205FP> .
+<http://example.org/team/520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/520> <http://schema.org/url> "http://www.saintsfc.co.uk" .
+<http://example.org/pl_id/Britannia%20RoadSO14%205FP> <http://schema.org/area> "Southampton" .
+<http://example.org/pl_id/Britannia%20RoadSO14%205FP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Britannia%20RoadSO14%205FP> <http://schema.org/postalCode> "SO14 5FP" .
+<http://example.org/team/520> <http://www.w3.org/2000/01/rdf-schema#label> "520" .
+<http://example.org/team/520> <http://schema.org/alternateName> "Southampton FC" .
+<http://example.org/team/520> <http://schema.org/foundingDate> "1885" .
+<http://example.org/team/520> <http://schema.org/name> "Southampton Football Club" .
+
+<http://example.org/pl_id/Stanley%20Matthews%20WayST4%204EG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/521> <http://schema.org/name> "Stoke City Football Club" .
+<http://example.org/pl_id/Stanley%20Matthews%20WayST4%204EG> <http://schema.org/address> "Stanley Matthews Way" .
+<http://example.org/team/521> <http://schema.org/url> "http://www.stokecityfc.com" .
+<http://example.org/team/521> <http://schema.org/foundingDate> "1863" .
+<http://example.org/team/521> <http://schema.org/faxNumber> "+44 (01782) 592210" .
+<http://example.org/team/521> <http://schema.org/email> "info@stokecityfc.com" .
+<http://example.org/team/521> <http://schema.org/alternateName> "Stoke City FC" .
+<http://example.org/pl_id/Stanley%20Matthews%20WayST4%204EG> <http://schema.org/area> "Stoke-on-Trent" .
+<http://example.org/pl_id/Stanley%20Matthews%20WayST4%204EG> <http://schema.org/postalCode> "ST4 4EG" .
+<http://example.org/team/521> <http://schema.org/additionalName> "The Potters" .
+<http://example.org/team/521> <http://schema.org/fromLocation> <http://example.org/pl_id/Stanley%20Matthews%20WayST4%204EG> .
+<http://example.org/team/521> <http://schema.org/telephone> "+44 (0871) 6632008" .
+<http://example.org/team/521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/521> <http://www.w3.org/2000/01/rdf-schema#label> "521" .
+
+<http://example.org/team/522> <http://schema.org/telephone> "+44 (0871) 9111200" .
+<http://example.org/pl_id/The%20Sunderland%20Stadium%20of%20LightSR5%201SU> <http://schema.org/address> "The Sunderland Stadium of Light" .
+<http://example.org/team/522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/The%20Sunderland%20Stadium%20of%20LightSR5%201SU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/522> <http://schema.org/email> "enquiries@safc.com" .
+<http://example.org/team/522> <http://schema.org/fromLocation> <http://example.org/pl_id/The%20Sunderland%20Stadium%20of%20LightSR5%201SU> .
+<http://example.org/team/522> <http://www.w3.org/2000/01/rdf-schema#label> "522" .
+<http://example.org/team/522> <http://schema.org/additionalName> "The Black Cats" .
+<http://example.org/pl_id/The%20Sunderland%20Stadium%20of%20LightSR5%201SU> <http://schema.org/postalCode> "SR5 1SU" .
+<http://example.org/team/522> <http://schema.org/additionalName> "The Light Brigade" .
+<http://example.org/pl_id/The%20Sunderland%20Stadium%20of%20LightSR5%201SU> <http://schema.org/area> "Sunderland" .
+<http://example.org/team/522> <http://schema.org/faxNumber> "+44 (0191) 5515123" .
+<http://example.org/team/522> <http://schema.org/foundingDate> "1879" .
+<http://example.org/team/522> <http://schema.org/alternateName> "Sunderland AFC" .
+<http://example.org/team/522> <http://schema.org/url> "http://www.safc.com" .
+<http://example.org/team/522> <http://schema.org/name> "Sunderland Association Football Club" .
+
+<http://example.org/pl_id/Liberty%20Stadium%2C%20LandoreSA1%202FA> <http://schema.org/area> "Swansea" .
+<http://example.org/team/523> <http://schema.org/email> "info@swanseacityfc.co.uk" .
+<http://example.org/team/523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/523> <http://schema.org/foundingDate> "1912" .
+<http://example.org/team/523> <http://schema.org/telephone> "+44 (01792) 616600" .
+<http://example.org/pl_id/Liberty%20Stadium%2C%20LandoreSA1%202FA> <http://schema.org/address> "Liberty Stadium, Landore" .
+<http://example.org/pl_id/Liberty%20Stadium%2C%20LandoreSA1%202FA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/523> <http://schema.org/url> "http://www.swanseacity.net" .
+<http://example.org/team/523> <http://schema.org/alternateName> "Swansea City AFC" .
+<http://example.org/team/523> <http://schema.org/name> "Clwb Pêl-droed Dinas Abertawe" .
+<http://example.org/team/523> <http://www.w3.org/2000/01/rdf-schema#label> "523" .
+<http://example.org/team/523> <http://schema.org/additionalName> "The Swans" .
+<http://example.org/team/523> <http://schema.org/faxNumber> "+44 (01792) 616606" .
+<http://example.org/team/523> <http://schema.org/fromLocation> <http://example.org/pl_id/Liberty%20Stadium%2C%20LandoreSA1%202FA> .
+<http://example.org/team/523> <http://schema.org/additionalName> "The Jacks" .
+<http://example.org/pl_id/Liberty%20Stadium%2C%20LandoreSA1%202FA> <http://schema.org/postalCode> "SA1 2FA" .
+
+<http://example.org/team/524> <http://www.w3.org/2000/01/rdf-schema#label> "524" .
+<http://example.org/team/524> <http://schema.org/email> "customer.care@tottenhamhotspur.com" .
+<http://example.org/team/524> <http://schema.org/additionalName> "Spurs" .
+<http://example.org/team/524> <http://schema.org/fromLocation> <http://example.org/pl_id/Bill%20Nicholson%20Way%2C%20748%20High%20RoadN17%20OAP> .
+<http://example.org/pl_id/Bill%20Nicholson%20Way%2C%20748%20High%20RoadN17%20OAP> <http://schema.org/address> "Bill Nicholson Way, 748 High Road" .
+<http://example.org/pl_id/Bill%20Nicholson%20Way%2C%20748%20High%20RoadN17%20OAP> <http://schema.org/postalCode> "N17 OAP" .
+<http://example.org/team/524> <http://schema.org/alternateName> "Tottenham Hotspur FC" .
+<http://example.org/team/524> <http://schema.org/foundingDate> "1882" .
+<http://example.org/pl_id/Bill%20Nicholson%20Way%2C%20748%20High%20RoadN17%20OAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/524> <http://schema.org/telephone> "+44 (0844) 4995000" .
+<http://example.org/pl_id/Bill%20Nicholson%20Way%2C%20748%20High%20RoadN17%20OAP> <http://schema.org/area> "London" .
+<http://example.org/team/524> <http://schema.org/additionalName> "The Lilywhites" .
+<http://example.org/team/524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/524> <http://schema.org/name> "Tottenham Hotspur Football Club" .
+<http://example.org/team/524> <http://schema.org/url> "http://www.tottenhamhotspur.com" .
+
+<http://example.org/pl_id/Vicarage%20RoadWD18%200ER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/525> <http://schema.org/email> "yourvoice@watfordfc.com" .
+<http://example.org/pl_id/Vicarage%20RoadWD18%200ER> <http://schema.org/area> "Watford" .
+<http://example.org/team/525> <http://schema.org/alternateName> "Watford FC" .
+<http://example.org/pl_id/Vicarage%20RoadWD18%200ER> <http://schema.org/postalCode> "WD18 0ER" .
+<http://example.org/team/525> <http://www.w3.org/2000/01/rdf-schema#label> "525" .
+<http://example.org/team/525> <http://schema.org/additionalName> "The 'Orns" .
+<http://example.org/team/525> <http://schema.org/fromLocation> <http://example.org/pl_id/Vicarage%20RoadWD18%200ER> .
+<http://example.org/team/525> <http://schema.org/additionalName> "The Hornets" .
+<http://example.org/pl_id/Vicarage%20RoadWD18%200ER> <http://schema.org/address> "Vicarage Road" .
+<http://example.org/team/525> <http://schema.org/url> "http://www.watfordfc.com" .
+<http://example.org/team/525> <http://schema.org/foundingDate> "1881" .
+<http://example.org/team/525> <http://schema.org/name> "Watford Football Club" .
+<http://example.org/team/525> <http://schema.org/additionalName> "The Golden Boys" .
+
+<http://example.org/pl_id/The%20HawthornsB71%204LF> <http://schema.org/postalCode> "B71 4LF" .
+<http://example.org/team/526> <http://schema.org/foundingDate> "1879" .
+<http://example.org/team/526> <http://schema.org/additionalName> "Albion" .
+<http://example.org/team/526> <http://schema.org/name> "West Bromwich Albion Football Club" .
+<http://example.org/team/526> <http://schema.org/alternateName> "West Bromwich Albion FC" .
+<http://example.org/team/526> <http://www.w3.org/2000/01/rdf-schema#label> "526" .
+<http://example.org/team/526> <http://schema.org/fromLocation> <http://example.org/pl_id/The%20HawthornsB71%204LF> .
+<http://example.org/team/526> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/The%20HawthornsB71%204LF> <http://schema.org/area> "West Bromwich" .
+<http://example.org/pl_id/The%20HawthornsB71%204LF> <http://schema.org/address> "The Hawthorns" .
+<http://example.org/team/526> <http://schema.org/email> "enquiries@wbafc.co.uk" .
+<http://example.org/team/526> <http://schema.org/additionalName> "The Baggies" .
+<http://example.org/team/526> <http://schema.org/url> "http://www.wba.co.uk" .
+<http://example.org/pl_id/The%20HawthornsB71%204LF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/526> <http://schema.org/additionalName> "The Throstles" .
+
+<http://example.org/team/527> <http://www.w3.org/2000/01/rdf-schema#label> "527" .
+<http://example.org/team/527> <http://schema.org/fromLocation> <http://example.org/pl_id/Green%20Street%2C%20Upton%20ParkE13%209AZ> .
+<http://example.org/pl_id/Green%20Street%2C%20Upton%20ParkE13%209AZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Green%20Street%2C%20Upton%20ParkE13%209AZ> <http://schema.org/area> "London" .
+<http://example.org/team/527> <http://schema.org/additionalName> "The Hammers" .
+<http://example.org/pl_id/Green%20Street%2C%20Upton%20ParkE13%209AZ> <http://schema.org/address> "Green Street, Upton Park" .
+<http://example.org/team/527> <http://schema.org/url> "http://www.whufc.com" .
+<http://example.org/team/527> <http://schema.org/name> "West Ham United Football Club" .
+<http://example.org/team/527> <http://schema.org/faxNumber> "+44 (020) 85482758" .
+<http://example.org/team/527> <http://schema.org/telephone> "+44 (020) 85482794" .
+<http://example.org/team/527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/527> <http://schema.org/alternateName> "West Ham United FC" .
+<http://example.org/pl_id/Green%20Street%2C%20Upton%20ParkE13%209AZ> <http://schema.org/postalCode> "E13 9AZ" .
+<http://example.org/team/527> <http://schema.org/email> "yourcomments@westhamunited.co.uk" .
+<http://example.org/team/527> <http://schema.org/additionalName> "The Irons" .
+<http://example.org/team/527> <http://schema.org/foundingDate> "1895" .
+
+<http://example.org/team/528> <http://schema.org/url> "http://www.mainz05.de" .
+<http://example.org/team/528> <http://schema.org/additionalName> "Karnevalsverein" .
+<http://example.org/team/528> <http://schema.org/faxNumber> "+49 (06131) 3755033" .
+<http://example.org/team/528> <http://schema.org/fromLocation> <http://example.org/pl_id/Dr.-Martin-Luther-King-Weg%202055122> .
+<http://example.org/team/528> <http://schema.org/additionalName> "Die Nullfünfer" .
+<http://example.org/team/528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/528> <http://www.w3.org/2000/01/rdf-schema#label> "528" .
+<http://example.org/team/528> <http://schema.org/email> "info@mainz05.de" .
+<http://example.org/team/528> <http://schema.org/foundingDate> "1905" .
+<http://example.org/team/528> <http://schema.org/name> "1. Fußball- und Sport-Verein Mainz 05" .
+<http://example.org/team/528> <http://schema.org/alternateName> "1. FSV Mainz 05" .
+<http://example.org/pl_id/Dr.-Martin-Luther-King-Weg%202055122> <http://schema.org/postalCode> "55122" .
+<http://example.org/pl_id/Dr.-Martin-Luther-King-Weg%202055122> <http://schema.org/address> "Dr.-Martin-Luther-King-Weg 20" .
+<http://example.org/team/528> <http://schema.org/telephone> "+49 (06131) 375500" .
+<http://example.org/pl_id/Dr.-Martin-Luther-King-Weg%202055122> <http://schema.org/area> "Mainz" .
+<http://example.org/pl_id/Dr.-Martin-Luther-King-Weg%202055122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+
+<http://example.org/pl_id/Franz-Kremer-Allee%20150937> <http://schema.org/address> "Franz-Kremer-Allee 1" .
+<http://example.org/team/529> <http://schema.org/faxNumber> "+49 (221) 71616399" .
+<http://example.org/team/529> <http://schema.org/additionalName> "Die Geißböcke" .
+<http://example.org/team/529> <http://schema.org/fromLocation> <http://example.org/pl_id/Franz-Kremer-Allee%20150937> .
+<http://example.org/team/529> <http://schema.org/telephone> "+49 (221) 71616300" .
+<http://example.org/team/529> <http://schema.org/alternateName> "1. FC Köln" .
+<http://example.org/team/529> <http://schema.org/name> "1. Fußball-Club Köln 01/07" .
+<http://example.org/pl_id/Franz-Kremer-Allee%20150937> <http://schema.org/postalCode> "50937" .
+<http://example.org/team/529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/529> <http://www.w3.org/2000/01/rdf-schema#label> "529" .
+<http://example.org/team/529> <http://schema.org/foundingDate> "1948" .
+<http://example.org/team/529> <http://schema.org/url> "http://www.fc-koeln.de" .
+<http://example.org/pl_id/Franz-Kremer-Allee%20150937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Franz-Kremer-Allee%20150937> <http://schema.org/area> "Köln" .
+<http://example.org/team/529> <http://schema.org/email> "info@fc-koeln.de" .
+
+<http://example.org/pl_id/Bismarckstr.%20122-12451373> <http://schema.org/address> "Bismarckstr. 122-124" .
+<http://example.org/pl_id/Bismarckstr.%20122-12451373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/530> <http://schema.org/additionalName> "Werkself" .
+<http://example.org/team/530> <http://schema.org/alternateName> "Bayer 04 Leverkusen" .
+<http://example.org/team/530> <http://schema.org/url> "http://www.bayer04.de" .
+<http://example.org/team/530> <http://schema.org/email> "stefan.kusche.sk@bayer04.de" .
+<http://example.org/team/530> <http://www.w3.org/2000/01/rdf-schema#label> "530" .
+<http://example.org/team/530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Bismarckstr.%20122-12451373> <http://schema.org/postalCode> "51373" .
+<http://example.org/team/530> <http://schema.org/telephone> "+49 (01805) 040404" .
+<http://example.org/team/530> <http://schema.org/faxNumber> "+49 (0214) 8660512" .
+<http://example.org/team/530> <http://schema.org/fromLocation> <http://example.org/pl_id/Bismarckstr.%20122-12451373> .
+<http://example.org/team/530> <http://schema.org/name> "Bayer 04 Leverkusen" .
+<http://example.org/team/530> <http://schema.org/foundingDate> "1904" .
+<http://example.org/pl_id/Bismarckstr.%20122-12451373> <http://schema.org/area> "Leverkusen" .
+
+<http://example.org/team/531> <http://schema.org/email> "info@borussia.de" .
+<http://example.org/team/531> <http://schema.org/additionalName> "Die Borussen" .
+<http://example.org/pl_id/Hennes-Weisweiler-Allee%20141179> <http://schema.org/address> "Hennes-Weisweiler-Allee 1" .
+<http://example.org/team/531> <http://schema.org/telephone> "+49 (02161) 92930" .
+<http://example.org/pl_id/Hennes-Weisweiler-Allee%20141179> <http://schema.org/postalCode> "41179" .
+<http://example.org/team/531> <http://schema.org/additionalName> "Die Fohlen" .
+<http://example.org/team/531> <http://schema.org/foundingDate> "1900" .
+<http://example.org/team/531> <http://schema.org/faxNumber> "+49 (02161) 92931009" .
+<http://example.org/pl_id/Hennes-Weisweiler-Allee%20141179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Hennes-Weisweiler-Allee%20141179> <http://schema.org/area> "Mönchengladbach" .
+<http://example.org/team/531> <http://schema.org/additionalName> "Der BMG" .
+<http://example.org/team/531> <http://schema.org/fromLocation> <http://example.org/pl_id/Hennes-Weisweiler-Allee%20141179> .
+<http://example.org/team/531> <http://schema.org/url> "http://www.borussia.de" .
+<http://example.org/team/531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/531> <http://www.w3.org/2000/01/rdf-schema#label> "531" .
+<http://example.org/team/531> <http://schema.org/alternateName> "Borussia Mönchengladbach" .
+<http://example.org/team/531> <http://schema.org/name> "Borussia Verein-für-Leibesübungen 1900 Mönchengladbach" .
+
+<http://example.org/team/532> <http://schema.org/alternateName> "BV Borussia 09 Dortmund" .
+<http://example.org/team/532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Rheinlanddamm%20207-20944137> <http://schema.org/postalCode> "44137" .
+<http://example.org/team/532> <http://schema.org/additionalName> "Die Borussen" .
+<http://example.org/team/532> <http://schema.org/additionalName> "Der BVB" .
+<http://example.org/team/532> <http://schema.org/faxNumber> "+49 (231) 9020105" .
+<http://example.org/team/532> <http://www.w3.org/2000/01/rdf-schema#label> "532" .
+<http://example.org/pl_id/Rheinlanddamm%20207-20944137> <http://schema.org/area> "Dortmund" .
+<http://example.org/team/532> <http://schema.org/fromLocation> <http://example.org/pl_id/Rheinlanddamm%20207-20944137> .
+<http://example.org/team/532> <http://schema.org/email> "info@bvb.de" .
+<http://example.org/team/532> <http://schema.org/telephone> "+49 (231) 90200" .
+<http://example.org/team/532> <http://schema.org/name> "Ballspielverein Borussia 09 Dortmund" .
+<http://example.org/team/532> <http://schema.org/foundingDate> "1909" .
+<http://example.org/pl_id/Rheinlanddamm%20207-20944137> <http://schema.org/address> "Rheinlanddamm 207-209" .
+<http://example.org/team/532> <http://schema.org/url> "http://www.bvb.de" .
+<http://example.org/team/532> <http://schema.org/additionalName> "Die Schwarzgelben" .
+<http://example.org/pl_id/Rheinlanddamm%20207-20944137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+
+<http://example.org/team/533> <http://schema.org/fromLocation> <http://example.org/pl_id/Mörfelder%20Landstraße%2036260528> .
+<http://example.org/team/533> <http://schema.org/email> "info@eintracht-frankfurt.de" .
+<http://example.org/pl_id/Mörfelder%20Landstraße%2036260528> <http://schema.org/area> "Frankfurt am Main" .
+<http://example.org/pl_id/Mörfelder%20Landstraße%2036260528> <http://schema.org/postalCode> "60528" .
+<http://example.org/team/533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/533> <http://schema.org/foundingDate> "1899" .
+<http://example.org/team/533> <http://schema.org/additionalName> "Launische Diva" .
+<http://example.org/pl_id/Mörfelder%20Landstraße%2036260528> <http://schema.org/address> "Mörfelder Landstraße 362" .
+<http://example.org/team/533> <http://schema.org/telephone> "+49 (0180) 5060303" .
+<http://example.org/team/533> <http://schema.org/alternateName> "Eintracht Frankfurt" .
+<http://example.org/team/533> <http://www.w3.org/2000/01/rdf-schema#label> "533" .
+<http://example.org/team/533> <http://schema.org/name> "Eintracht Frankfurt" .
+<http://example.org/pl_id/Mörfelder%20Landstraße%2036260528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/533> <http://schema.org/additionalName> "Die Adler" .
+<http://example.org/team/533> <http://schema.org/faxNumber> "+49 (069) 95503268" .
+<http://example.org/team/533> <http://schema.org/url> "http://www.eintracht.de" .
+<http://example.org/team/533> <http://schema.org/additionalName> "SGE" .
+
+<http://example.org/team/534> <http://schema.org/foundingDate> "1907" .
+<http://example.org/pl_id/Donauwörther%20Straße%2017086154> <http://schema.org/address> "Donauwörther Straße 170" .
+<http://example.org/pl_id/Donauwörther%20Straße%2017086154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Donauwörther%20Straße%2017086154> <http://schema.org/area> "Augsburg" .
+<http://example.org/team/534> <http://schema.org/telephone> "+49 (0821) 4554770" .
+<http://example.org/team/534> <http://schema.org/fromLocation> <http://example.org/pl_id/Donauwörther%20Straße%2017086154> .
+<http://example.org/team/534> <http://schema.org/faxNumber> "+49 (0821) 45547770" .
+<http://example.org/team/534> <http://schema.org/url> "http://www.fcaugsburg.de" .
+<http://example.org/team/534> <http://schema.org/name> "Fußball-Club Augsburg 1907" .
+<http://example.org/team/534> <http://schema.org/email> "info@fcaugsburg.de" .
+<http://example.org/team/534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/534> <http://schema.org/additionalName> "Fuggerstädter" .
+<http://example.org/pl_id/Donauwörther%20Straße%2017086154> <http://schema.org/postalCode> "86154" .
+<http://example.org/team/534> <http://schema.org/alternateName> "FC Augsburg" .
+<http://example.org/team/534> <http://www.w3.org/2000/01/rdf-schema#label> "534" .
+
+<http://example.org/team/535> <http://schema.org/foundingDate> "1900" .
+<http://example.org/team/535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/535> <http://schema.org/alternateName> "FC Bayern München" .
+<http://example.org/team/535> <http://schema.org/name> "Fußball-Club Bayern München" .
+<http://example.org/team/535> <http://www.w3.org/2000/01/rdf-schema#label> "535" .
+<http://example.org/pl_id/Säbenerstr.%205181547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/535> <http://schema.org/url> "http://www.fcbayern.de" .
+<http://example.org/team/535> <http://schema.org/additionalName> "Die Bayern" .
+<http://example.org/team/535> <http://schema.org/faxNumber> "+49 (089) 644165" .
+<http://example.org/pl_id/Säbenerstr.%205181547> <http://schema.org/address> "Säbenerstr. 51" .
+<http://example.org/team/535> <http://schema.org/telephone> "+49 (089) 699310" .
+<http://example.org/team/535> <http://schema.org/additionalName> "Die Roten" .
+<http://example.org/team/535> <http://schema.org/additionalName> "Der FCB" .
+<http://example.org/team/535> <http://schema.org/fromLocation> <http://example.org/pl_id/Säbenerstr.%205181547> .
+<http://example.org/pl_id/Säbenerstr.%205181547> <http://schema.org/postalCode> "81547" .
+<http://example.org/pl_id/Säbenerstr.%205181547> <http://schema.org/area> "München" .
+<http://example.org/team/535> <http://schema.org/email> "service-team@fcb.de" .
+
+<http://example.org/team/536> <http://schema.org/faxNumber> "+49 (0841) 93740024" .
+<http://example.org/pl_id/Geisenfelder%20Straße%20185053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/536> <http://schema.org/additionalName> "Die Schanzer" .
+<http://example.org/team/536> <http://schema.org/name> "Fußball-Club Ingolstadt 04" .
+<http://example.org/pl_id/Geisenfelder%20Straße%20185053> <http://schema.org/area> "Ingolstadt" .
+<http://example.org/pl_id/Geisenfelder%20Straße%20185053> <http://schema.org/address> "Geisenfelder Straße 1" .
+<http://example.org/team/536> <http://schema.org/fromLocation> <http://example.org/pl_id/Geisenfelder%20Straße%20185053> .
+<http://example.org/team/536> <http://www.w3.org/2000/01/rdf-schema#label> "536" .
+<http://example.org/team/536> <http://schema.org/url> "http://www.fcingolstadt.de" .
+<http://example.org/team/536> <http://schema.org/telephone> "+49 (0841) 9374000" .
+<http://example.org/team/536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/536> <http://schema.org/foundingDate> "2004" .
+<http://example.org/team/536> <http://schema.org/alternateName> "FC Ingolstadt 04" .
+<http://example.org/team/536> <http://schema.org/email> "info@fcingolstadt.de" .
+<http://example.org/pl_id/Geisenfelder%20Straße%20185053> <http://schema.org/postalCode> "85053" .
+
+<http://example.org/pl_id/Ernst-Kuzorra-Weg%20145891> <http://schema.org/postalCode> "45891" .
+<http://example.org/team/537> <http://schema.org/url> "http://www.schalke04.de" .
+<http://example.org/team/537> <http://schema.org/foundingDate> "1904" .
+<http://example.org/team/537> <http://schema.org/email> "post@schalke04.de" .
+<http://example.org/pl_id/Ernst-Kuzorra-Weg%20145891> <http://schema.org/area> "Gelsenkirchen" .
+<http://example.org/team/537> <http://schema.org/faxNumber> "+49 (0209) 3618109" .
+<http://example.org/pl_id/Ernst-Kuzorra-Weg%20145891> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Ernst-Kuzorra-Weg%20145891> <http://schema.org/address> "Ernst-Kuzorra-Weg 1" .
+<http://example.org/team/537> <http://schema.org/fromLocation> <http://example.org/pl_id/Ernst-Kuzorra-Weg%20145891> .
+<http://example.org/team/537> <http://schema.org/telephone> "+49 (0209) 36180" .
+<http://example.org/team/537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/537> <http://schema.org/alternateName> "FC Schalke 04" .
+<http://example.org/team/537> <http://www.w3.org/2000/01/rdf-schema#label> "537" .
+<http://example.org/team/537> <http://schema.org/additionalName> "Knappen" .
+<http://example.org/team/537> <http://schema.org/name> "Fußballclub Gelsenkirchen-Schalke 04" .
+
+<http://example.org/team/538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Sylvesterallee%20722525> <http://schema.org/postalCode> "22525" .
+<http://example.org/team/538> <http://schema.org/alternateName> "Hamburger SV" .
+<http://example.org/pl_id/Sylvesterallee%20722525> <http://schema.org/address> "Sylvesterallee 7" .
+<http://example.org/team/538> <http://schema.org/name> "Hamburger Sport-Verein" .
+<http://example.org/team/538> <http://schema.org/additionalName> "Die Rothosen" .
+<http://example.org/pl_id/Sylvesterallee%20722525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/538> <http://schema.org/telephone> "+49 (01805) 478478" .
+<http://example.org/team/538> <http://www.w3.org/2000/01/rdf-schema#label> "538" .
+<http://example.org/team/538> <http://schema.org/fromLocation> <http://example.org/pl_id/Sylvesterallee%20722525> .
+<http://example.org/team/538> <http://schema.org/url> "http://www.hsv.de" .
+<http://example.org/team/538> <http://schema.org/foundingDate> "1887" .
+<http://example.org/team/538> <http://schema.org/faxNumber> "+49 (040) 41551234" .
+<http://example.org/pl_id/Sylvesterallee%20722525> <http://schema.org/area> "Hamburg" .
+<http://example.org/team/538> <http://schema.org/email> "info@hsv.de" .
+<http://example.org/team/538> <http://schema.org/additionalName> "Der Dinosaurier" .
+
+<http://example.org/team/539> <http://schema.org/additionalName> "Die 69er" .
+<http://example.org/pl_id/Robert-Enke-Straße%20130169> <http://schema.org/area> "Hannover" .
+<http://example.org/team/539> <http://schema.org/alternateName> "Hannover 96" .
+<http://example.org/team/539> <http://schema.org/additionalName> "Die Roten" .
+<http://example.org/pl_id/Robert-Enke-Straße%20130169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/539> <http://schema.org/foundingDate> "1896" .
+<http://example.org/pl_id/Robert-Enke-Straße%20130169> <http://schema.org/postalCode> "30169" .
+<http://example.org/pl_id/Robert-Enke-Straße%20130169> <http://schema.org/address> "Robert-Enke-Straße 1" .
+<http://example.org/team/539> <http://schema.org/email> "info@hannover96.de" .
+<http://example.org/team/539> <http://www.w3.org/2000/01/rdf-schema#label> "539" .
+<http://example.org/team/539> <http://schema.org/faxNumber> "+49 (0511) 96900719" .
+<http://example.org/team/539> <http://schema.org/url> "http://www.hannover96.de" .
+<http://example.org/team/539> <http://schema.org/name> "Hannoverscher Sportverein von 1896" .
+<http://example.org/team/539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/539> <http://schema.org/telephone> "+49 (0511) 96900196" .
+<http://example.org/team/539> <http://schema.org/fromLocation> <http://example.org/pl_id/Robert-Enke-Straße%20130169> .
+
+<http://example.org/pl_id/Hanns-Braun-Straße%2C%20Friesenhaus%20II14053> <http://schema.org/address> "Hanns-Braun-Straße, Friesenhaus II" .
+<http://example.org/team/540> <http://schema.org/foundingDate> "1892" .
+<http://example.org/team/540> <http://schema.org/telephone> "+49 (030) 3009280" .
+<http://example.org/team/540> <http://www.w3.org/2000/01/rdf-schema#label> "540" .
+<http://example.org/pl_id/Hanns-Braun-Straße%2C%20Friesenhaus%20II14053> <http://schema.org/postalCode> "14053" .
+<http://example.org/team/540> <http://schema.org/name> "Hertha Berliner Sport-Cub" .
+<http://example.org/team/540> <http://schema.org/alternateName> "Hertha BSC" .
+<http://example.org/team/540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/540> <http://schema.org/faxNumber> "+49 (030) 30092894" .
+<http://example.org/team/540> <http://schema.org/email> "info@herthabsc.de" .
+<http://example.org/pl_id/Hanns-Braun-Straße%2C%20Friesenhaus%20II14053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/540> <http://schema.org/additionalName> "Alte Dame" .
+<http://example.org/team/540> <http://schema.org/url> "http://www.herthabsc.de" .
+<http://example.org/pl_id/Hanns-Braun-Straße%2C%20Friesenhaus%20II14053> <http://schema.org/area> "Berlin" .
+<http://example.org/team/540> <http://schema.org/fromLocation> <http://example.org/pl_id/Hanns-Braun-Straße%2C%20Friesenhaus%20II14053> .
+
+<http://example.org/team/541> <http://schema.org/name> "Sportverein Darmstadt 1898" .
+<http://example.org/team/541> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/541> <http://schema.org/url> "http://www.sv98.de" .
+<http://example.org/team/541> <http://schema.org/telephone> "+49 (06151) 666698" .
+<http://example.org/team/541> <http://schema.org/fromLocation> <http://example.org/pl_id/Nieder-Ramstädter-Straße%2017064285> .
+<http://example.org/team/541> <http://schema.org/additionalName> "Die Lilien" .
+<http://example.org/pl_id/Nieder-Ramstädter-Straße%2017064285> <http://schema.org/postalCode> "64285" .
+<http://example.org/pl_id/Nieder-Ramstädter-Straße%2017064285> <http://schema.org/area> "Darmstadt" .
+<http://example.org/team/541> <http://www.w3.org/2000/01/rdf-schema#label> "541" .
+<http://example.org/pl_id/Nieder-Ramstädter-Straße%2017064285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Nieder-Ramstädter-Straße%2017064285> <http://schema.org/address> "Nieder-Ramstädter-Straße 170" .
+<http://example.org/team/541> <http://schema.org/foundingDate> "1898" .
+<http://example.org/team/541> <http://schema.org/email> "info@sv98.de" .
+<http://example.org/team/541> <http://schema.org/faxNumber> "+49 (06151) 666699" .
+<http://example.org/team/541> <http://schema.org/alternateName> "SV Darmstadt 98" .
+
+<http://example.org/team/542> <http://schema.org/additionalName> "Die Grün-Weißen" .
+<http://example.org/pl_id/Franz-Böhmert-Str.%201c28205> <http://schema.org/area> "Bremen" .
+<http://example.org/team/542> <http://www.w3.org/2000/01/rdf-schema#label> "542" .
+<http://example.org/team/542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/542> <http://schema.org/email> "info@werder-online.de" .
+<http://example.org/team/542> <http://schema.org/alternateName> "SV Werder Bremen" .
+<http://example.org/team/542> <http://schema.org/foundingDate> "1899" .
+<http://example.org/team/542> <http://schema.org/telephone> "+49 (01805) 937337" .
+<http://example.org/team/542> <http://schema.org/faxNumber> "+49 (0421) 493555" .
+<http://example.org/team/542> <http://schema.org/additionalName> "Die Werderaner" .
+<http://example.org/team/542> <http://schema.org/fromLocation> <http://example.org/pl_id/Franz-Böhmert-Str.%201c28205> .
+<http://example.org/pl_id/Franz-Böhmert-Str.%201c28205> <http://schema.org/address> "Franz-Böhmert-Str. 1c" .
+<http://example.org/team/542> <http://schema.org/name> "Sportverein Werder Bremen von 1899 " .
+<http://example.org/team/542> <http://schema.org/url> "http://www.werder.de" .
+<http://example.org/pl_id/Franz-Böhmert-Str.%201c28205> <http://schema.org/postalCode> "28205" .
+<http://example.org/pl_id/Franz-Böhmert-Str.%201c28205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+
+<http://example.org/team/543> <http://schema.org/fromLocation> <http://example.org/pl_id/Horrenberger%20Straße%205874939> .
+<http://example.org/team/543> <http://schema.org/faxNumber> "+49 (07261) 9493102" .
+<http://example.org/team/543> <http://schema.org/foundingDate> "1921" .
+<http://example.org/team/543> <http://schema.org/telephone> "+49 (07261) 94930" .
+<http://example.org/team/543> <http://schema.org/email> "info@achtzehn99.de" .
+<http://example.org/pl_id/Horrenberger%20Straße%205874939> <http://schema.org/area> "Zuzenhausen" .
+<http://example.org/pl_id/Horrenberger%20Straße%205874939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/543> <http://schema.org/name> "Turn- und Sportgemeinschaft 1899 Hoffenheim" .
+<http://example.org/team/543> <http://www.w3.org/2000/01/rdf-schema#label> "543" .
+<http://example.org/team/543> <http://schema.org/url> "http://www.achtzehn99.de" .
+<http://example.org/pl_id/Horrenberger%20Straße%205874939> <http://schema.org/postalCode> "74939" .
+<http://example.org/pl_id/Horrenberger%20Straße%205874939> <http://schema.org/address> "Horrenberger Straße 58" .
+<http://example.org/team/543> <http://schema.org/alternateName> "TSG 1899 Hoffenheim" .
+
+<http://example.org/team/544> <http://schema.org/telephone> "+49 (1805) 832 5463" .
+<http://example.org/team/544> <http://schema.org/faxNumber> "+49 (711) 550 07196" .
+<http://example.org/pl_id/Mercedesstraße%2010970372> <http://schema.org/postalCode> "70372" .
+<http://example.org/pl_id/Mercedesstraße%2010970372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/544> <http://schema.org/fromLocation> <http://example.org/pl_id/Mercedesstraße%2010970372> .
+<http://example.org/team/544> <http://schema.org/url> "http://www.vfb.de" .
+<http://example.org/team/544> <http://schema.org/email> "info@vfb-stuttgart.de" .
+<http://example.org/pl_id/Mercedesstraße%2010970372> <http://schema.org/address> "Mercedesstraße 109" .
+<http://example.org/team/544> <http://schema.org/alternateName> "VfB Stuttgart" .
+<http://example.org/team/544> <http://schema.org/additionalName> "Die Roten" .
+<http://example.org/pl_id/Mercedesstraße%2010970372> <http://schema.org/area> "Stuttgart" .
+<http://example.org/team/544> <http://schema.org/name> "Verein für Bewegungsspiele Stuttgart 1893" .
+<http://example.org/team/544> <http://www.w3.org/2000/01/rdf-schema#label> "544" .
+<http://example.org/team/544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/544> <http://schema.org/foundingDate> "1893" .
+<http://example.org/team/544> <http://schema.org/additionalName> "Die Schwaben" .
+
+<http://example.org/pl_id/In%20den%20Allerwiesen%20138446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/545> <http://www.w3.org/2000/01/rdf-schema#label> "545" .
+<http://example.org/team/545> <http://schema.org/foundingDate> "1945" .
+<http://example.org/pl_id/In%20den%20Allerwiesen%20138446> <http://schema.org/area> "Wolfsburg" .
+<http://example.org/team/545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/545> <http://schema.org/url> "http://www.vfl-wolfsburg.de" .
+<http://example.org/team/545> <http://schema.org/fromLocation> <http://example.org/pl_id/In%20den%20Allerwiesen%20138446> .
+<http://example.org/team/545> <http://schema.org/email> "fussball@vfl-wolfsburg.de" .
+<http://example.org/team/545> <http://schema.org/name> "Verein für Leibesübungen Wolfsburg" .
+<http://example.org/team/545> <http://schema.org/additionalName> "Die Wölfe" .
+<http://example.org/team/545> <http://schema.org/telephone> "+49 (05361) 89030" .
+<http://example.org/pl_id/In%20den%20Allerwiesen%20138446> <http://schema.org/address> "In den Allerwiesen 1" .
+<http://example.org/team/545> <http://schema.org/faxNumber> "+49 (05361) 8903150" .
+<http://example.org/team/545> <http://schema.org/alternateName> "VfL Wolfsburg" .
+<http://example.org/pl_id/In%20den%20Allerwiesen%20138446> <http://schema.org/postalCode> "38446" .
+
+<http://example.org/pl_id/Paseo%20Virgen%20del%20Puerto%2C%206728005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/554> <http://schema.org/url> "http://www.clubatleticodemadrid.com" .
+<http://example.org/team/554> <http://schema.org/alternateName> "Club Atlético de Madrid" .
+<http://example.org/pl_id/Paseo%20Virgen%20del%20Puerto%2C%206728005> <http://schema.org/address> "Paseo Virgen del Puerto, 67" .
+<http://example.org/team/554> <http://schema.org/name> "Club Atlético de Madrid" .
+<http://example.org/team/554> <http://schema.org/faxNumber> "+34 (913) 641722" .
+<http://example.org/pl_id/Paseo%20Virgen%20del%20Puerto%2C%206728005> <http://schema.org/area> "Madrid" .
+<http://example.org/team/554> <http://schema.org/additionalName> "Los Indios" .
+<http://example.org/team/554> <http://schema.org/foundingDate> "1903" .
+<http://example.org/team/554> <http://schema.org/telephone> "+34 (913) 669048" .
+<http://example.org/team/554> <http://www.w3.org/2000/01/rdf-schema#label> "554" .
+<http://example.org/team/554> <http://schema.org/email> "comunicacion@clubatleticodemadrid.com" .
+<http://example.org/team/554> <http://schema.org/additionalName> "Los Colchoneros" .
+<http://example.org/team/554> <http://schema.org/additionalName> "Los Rojiblancos" .
+<http://example.org/pl_id/Paseo%20Virgen%20del%20Puerto%2C%206728005> <http://schema.org/postalCode> "28005" .
+<http://example.org/team/554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/554> <http://schema.org/fromLocation> <http://example.org/pl_id/Paseo%20Virgen%20del%20Puerto%2C%206728005> .
+
+<http://example.org/team/559> <http://schema.org/name> "Futbol Club Barcelona" .
+<http://example.org/team/559> <http://schema.org/foundingDate> "1899" .
+<http://example.org/pl_id/Avenida%20Arístides%20Maillol%20s/n08028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/559> <http://www.w3.org/2000/01/rdf-schema#label> "559" .
+<http://example.org/team/559> <http://schema.org/url> "http://www.fcbarcelona.com" .
+<http://example.org/team/559> <http://schema.org/additionalName> "Blaugranas" .
+<http://example.org/team/559> <http://schema.org/email> "secretaria@fcbarcelona.com" .
+<http://example.org/team/559> <http://schema.org/telephone> "+34 (902) 189900" .
+<http://example.org/team/559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Avenida%20Arístides%20Maillol%20s/n08028> <http://schema.org/address> "Avenida Arístides Maillol s/n" .
+<http://example.org/pl_id/Avenida%20Arístides%20Maillol%20s/n08028> <http://schema.org/area> "Barcelona" .
+<http://example.org/pl_id/Avenida%20Arístides%20Maillol%20s/n08028> <http://schema.org/postalCode> "08028" .
+<http://example.org/team/559> <http://schema.org/fromLocation> <http://example.org/pl_id/Avenida%20Arístides%20Maillol%20s/n08028> .
+<http://example.org/team/559> <http://schema.org/additionalName> "Barça" .
+<http://example.org/team/559> <http://schema.org/alternateName> "FC Barcelona" .
+
+<http://example.org/team/588> <http://schema.org/faxNumber> "+39 (011) 5119214" .
+<http://example.org/pl_id/Corso%20Galileo%20Ferraris%2C%203210128> <http://schema.org/address> "Corso Galileo Ferraris, 32" .
+<http://example.org/team/588> <http://schema.org/fromLocation> <http://example.org/pl_id/Corso%20Galileo%20Ferraris%2C%203210128> .
+<http://example.org/team/588> <http://schema.org/email> "francesco.gianello@juventus.com" .
+<http://example.org/team/588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/588> <http://schema.org/telephone> "+39 (011) 65631" .
+<http://example.org/team/588> <http://schema.org/url> "http://www.juventus.com" .
+<http://example.org/team/588> <http://www.w3.org/2000/01/rdf-schema#label> "588" .
+<http://example.org/team/588> <http://schema.org/alternateName> "Juventus FC" .
+<http://example.org/team/588> <http://schema.org/foundingDate> "1897" .
+<http://example.org/team/588> <http://schema.org/name> "Juventus Football Club" .
+<http://example.org/pl_id/Corso%20Galileo%20Ferraris%2C%203210128> <http://schema.org/postalCode> "10128" .
+<http://example.org/pl_id/Corso%20Galileo%20Ferraris%2C%203210128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Corso%20Galileo%20Ferraris%2C%203210128> <http://schema.org/area> "Torino" .
+
+<http://example.org/team/605> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/605> <http://schema.org/foundingDate> "1902" .
+<http://example.org/team/605> <http://schema.org/email> "atencionpublico@corp.realmadrid.com" .
+<http://example.org/pl_id/Avenida%20Concha%20Espina%2C%20128036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/605> <http://schema.org/name> "Real Madrid Club de Fútbol" .
+<http://example.org/team/605> <http://www.w3.org/2000/01/rdf-schema#label> "605" .
+<http://example.org/pl_id/Avenida%20Concha%20Espina%2C%20128036> <http://schema.org/area> "Madrid" .
+<http://example.org/team/605> <http://schema.org/url> "http://www.realmadrid.com" .
+<http://example.org/team/605> <http://schema.org/additionalName> "Los Blancos" .
+<http://example.org/team/605> <http://schema.org/telephone> "+34 (913) 984300" .
+<http://example.org/team/605> <http://schema.org/alternateName> "Real Madrid CF" .
+<http://example.org/pl_id/Avenida%20Concha%20Espina%2C%20128036> <http://schema.org/postalCode> "28036" .
+<http://example.org/team/605> <http://schema.org/fromLocation> <http://example.org/pl_id/Avenida%20Concha%20Espina%2C%20128036> .
+<http://example.org/team/605> <http://schema.org/additionalName> "Los Merengues" .
+<http://example.org/pl_id/Avenida%20Concha%20Espina%2C%20128036> <http://schema.org/address> "Avenida Concha Espina, 1" .
+
+<http://example.org/team/606> <http://schema.org/additionalName> "Los Nervionenses" .
+<http://example.org/team/606> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20Sevilla%20Fútbol%20Club%2C%20s/n41005> .
+<http://example.org/team/606> <http://schema.org/url> "http://www.sevillafc.es" .
+<http://example.org/team/606> <http://schema.org/telephone> "+34 (902) 510011" .
+<http://example.org/pl_id/Calle%20Sevilla%20Fútbol%20Club%2C%20s/n41005> <http://schema.org/address> "Calle Sevilla Fútbol Club, s/n" .
+<http://example.org/pl_id/Calle%20Sevilla%20Fútbol%20Club%2C%20s/n41005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/606> <http://schema.org/name> "Sevilla Fútbol Club" .
+<http://example.org/pl_id/Calle%20Sevilla%20Fútbol%20Club%2C%20s/n41005> <http://schema.org/postalCode> "41005" .
+<http://example.org/team/606> <http://schema.org/foundingDate> "1905" .
+<http://example.org/team/606> <http://www.w3.org/2000/01/rdf-schema#label> "606" .
+<http://example.org/team/606> <http://schema.org/faxNumber> "+34 (954) 536061" .
+<http://example.org/team/606> <http://schema.org/additionalName> "Sevillistas" .
+<http://example.org/pl_id/Calle%20Sevilla%20Fútbol%20Club%2C%20s/n41005> <http://schema.org/area> "Sevilla" .
+<http://example.org/team/606> <http://schema.org/email> "sevillafc@sevillafc.es" .
+<http://example.org/team/606> <http://schema.org/alternateName> "Sevilla FC" .
+<http://example.org/team/606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+
+<http://example.org/team/611> <http://schema.org/additionalName> "Biancocelesti" .
+<http://example.org/pl_id/Via%20di%20Santa%20Cornelia%2C%20100000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/611> <http://schema.org/alternateName> "SS Lazio" .
+<http://example.org/pl_id/Via%20di%20Santa%20Cornelia%2C%20100000060> <http://schema.org/postalCode> "00060" .
+<http://example.org/team/611> <http://schema.org/additionalName> "Biancazzurri" .
+<http://example.org/team/611> <http://schema.org/telephone> "+39 (06) 976071" .
+<http://example.org/pl_id/Via%20di%20Santa%20Cornelia%2C%20100000060> <http://schema.org/area> "Formello" .
+<http://example.org/pl_id/Via%20di%20Santa%20Cornelia%2C%20100000060> <http://schema.org/address> "Via di Santa Cornelia, 1000" .
+<http://example.org/team/611> <http://schema.org/url> "http://www.sslazio.it" .
+<http://example.org/team/611> <http://schema.org/email> "segreteria.lazio@sslazio.it" .
+<http://example.org/team/611> <http://www.w3.org/2000/01/rdf-schema#label> "611" .
+<http://example.org/team/611> <http://schema.org/faxNumber> "+39 (06) 90400022" .
+<http://example.org/team/611> <http://schema.org/name> "Società Sportiva Lazio" .
+<http://example.org/team/611> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20di%20Santa%20Cornelia%2C%20100000060> .
+<http://example.org/team/611> <http://schema.org/additionalName> "Aquile" .
+<http://example.org/team/611> <http://schema.org/foundingDate> "1900" .
+<http://example.org/team/611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+
+<http://example.org/team/614> <http://schema.org/name> "Valencia Club de Fútbol" .
+<http://example.org/team/614> <http://schema.org/additionalName> "Ché" .
+<http://example.org/team/614> <http://schema.org/additionalName> "Blanquinegre" .
+<http://example.org/pl_id/Plaza%20del%20Valencia%20Club%20de%20Fútbol%2C%20246010> <http://schema.org/area> "Valencia" .
+<http://example.org/team/614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/614> <http://schema.org/foundingDate> "1919" .
+<http://example.org/pl_id/Plaza%20del%20Valencia%20Club%20de%20Fútbol%2C%20246010> <http://schema.org/postalCode> "46010" .
+<http://example.org/team/614> <http://schema.org/email> "informacion@valenciacf.es" .
+<http://example.org/team/614> <http://schema.org/telephone> "+34 (902) 011919" .
+<http://example.org/team/614> <http://schema.org/fromLocation> <http://example.org/pl_id/Plaza%20del%20Valencia%20Club%20de%20Fútbol%2C%20246010> .
+<http://example.org/pl_id/Plaza%20del%20Valencia%20Club%20de%20Fútbol%2C%20246010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/614> <http://schema.org/url> "http://www.valenciacf.com" .
+<http://example.org/team/614> <http://schema.org/alternateName> "Valencia CF" .
+<http://example.org/team/614> <http://schema.org/additionalName> "Taronja" .
+<http://example.org/pl_id/Plaza%20del%20Valencia%20Club%20de%20Fútbol%2C%20246010> <http://schema.org/address> "Plaza del Valencia Club de Fútbol, 2" .
+<http://example.org/team/614> <http://schema.org/faxNumber> "+34 (963) 372335" .
+<http://example.org/team/614> <http://www.w3.org/2000/01/rdf-schema#label> "614" .
+
+<http://example.org/pl_id/Ibaigane%2C%20Alameda%20Mazarredo%2C%202348009> <http://schema.org/area> "Bilbao" .
+<http://example.org/pl_id/Ibaigane%2C%20Alameda%20Mazarredo%2C%202348009> <http://schema.org/postalCode> "48009" .
+<http://example.org/team/616> <http://schema.org/additionalName> "Los Leones" .
+<http://example.org/team/616> <http://schema.org/faxNumber> "+34 (944) 233324" .
+<http://example.org/team/616> <http://schema.org/fromLocation> <http://example.org/pl_id/Ibaigane%2C%20Alameda%20Mazarredo%2C%202348009> .
+<http://example.org/team/616> <http://www.w3.org/2000/01/rdf-schema#label> "616" .
+<http://example.org/team/616> <http://schema.org/telephone> "+34 (944) 240877" .
+<http://example.org/team/616> <http://schema.org/name> "Athletic Club de Bilbao" .
+<http://example.org/team/616> <http://schema.org/foundingDate> "1898" .
+<http://example.org/team/616> <http://schema.org/email> "prensa@athletic-club.net" .
+<http://example.org/pl_id/Ibaigane%2C%20Alameda%20Mazarredo%2C%202348009> <http://schema.org/address> "Ibaigane, Alameda Mazarredo, 23" .
+<http://example.org/team/616> <http://schema.org/url> "http://www.athletic-club.eus" .
+<http://example.org/team/616> <http://schema.org/alternateName> "Athletic Club" .
+<http://example.org/pl_id/Ibaigane%2C%20Alameda%20Mazarredo%2C%202348009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+
+<http://example.org/team/617> <http://schema.org/url> "http://www.getafecf.com" .
+<http://example.org/pl_id/Avenida%20Teresa%20de%20Calcuta%2C%20s/n28903> <http://schema.org/address> "Avenida Teresa de Calcuta, s/n" .
+<http://example.org/team/617> <http://schema.org/alternateName> "Getafe CF" .
+<http://example.org/team/617> <http://schema.org/additionalName> "Azulones" .
+<http://example.org/pl_id/Avenida%20Teresa%20de%20Calcuta%2C%20s/n28903> <http://schema.org/area> "Getafe" .
+<http://example.org/team/617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/617> <http://schema.org/telephone> "+34 (916) 959643" .
+<http://example.org/team/617> <http://schema.org/fromLocation> <http://example.org/pl_id/Avenida%20Teresa%20de%20Calcuta%2C%20s/n28903> .
+<http://example.org/team/617> <http://schema.org/name> "Getafe Club de Fútbol" .
+<http://example.org/team/617> <http://schema.org/foundingDate> "1946" .
+<http://example.org/team/617> <http://schema.org/faxNumber> "+34 (916) 833285" .
+<http://example.org/pl_id/Avenida%20Teresa%20de%20Calcuta%2C%20s/n28903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/617> <http://schema.org/email> "fsantos@getafecf.com" .
+<http://example.org/team/617> <http://schema.org/additionalName> "El Geta" .
+<http://example.org/pl_id/Avenida%20Teresa%20de%20Calcuta%2C%20s/n28903> <http://schema.org/postalCode> "28903" .
+<http://example.org/team/617> <http://www.w3.org/2000/01/rdf-schema#label> "617" .
+
+<http://example.org/team/618> <http://schema.org/additionalName> "Nazaríes" .
+<http://example.org/team/618> <http://schema.org/additionalName> "El Graná" .
+<http://example.org/team/618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Calle%20del%20Pintor%20Manuel%20Maldonado%2C%20s/n18007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Calle%20del%20Pintor%20Manuel%20Maldonado%2C%20s/n18007> <http://schema.org/address> "Calle del Pintor Manuel Maldonado, s/n" .
+<http://example.org/team/618> <http://www.w3.org/2000/01/rdf-schema#label> "618" .
+<http://example.org/pl_id/Calle%20del%20Pintor%20Manuel%20Maldonado%2C%20s/n18007> <http://schema.org/area> "Granada" .
+<http://example.org/team/618> <http://schema.org/telephone> "+34 (958) 253300" .
+<http://example.org/pl_id/Calle%20del%20Pintor%20Manuel%20Maldonado%2C%20s/n18007> <http://schema.org/postalCode> "18007" .
+<http://example.org/team/618> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20del%20Pintor%20Manuel%20Maldonado%2C%20s/n18007> .
+<http://example.org/team/618> <http://schema.org/faxNumber> "+34 (958) 253304" .
+<http://example.org/team/618> <http://schema.org/email> "secretaria@granadacf.es" .
+<http://example.org/team/618> <http://schema.org/url> "http://www.granadacf.es" .
+<http://example.org/team/618> <http://schema.org/foundingDate> "1931" .
+<http://example.org/team/618> <http://schema.org/name> "Granada Club de Fútbol" .
+<http://example.org/team/618> <http://schema.org/alternateName> "Granada CF" .
+<http://example.org/team/618> <http://schema.org/additionalName> "Rojiblancos" .
+
+<http://example.org/team/619> <http://schema.org/foundingDate> "1909" .
+<http://example.org/team/619> <http://schema.org/email> "admon@levanteud.es" .
+<http://example.org/team/619> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20San%20Vicente%20de%20Paúl%2C%204446019> .
+<http://example.org/team/619> <http://schema.org/alternateName> "Levante UD" .
+<http://example.org/pl_id/Calle%20San%20Vicente%20de%20Paúl%2C%204446019> <http://schema.org/area> "Valencia" .
+<http://example.org/team/619> <http://schema.org/faxNumber> "+34 (963) 379531" .
+<http://example.org/pl_id/Calle%20San%20Vicente%20de%20Paúl%2C%204446019> <http://schema.org/address> "Calle San Vicente de Paúl, 44" .
+<http://example.org/pl_id/Calle%20San%20Vicente%20de%20Paúl%2C%204446019> <http://schema.org/postalCode> "46019" .
+<http://example.org/team/619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/619> <http://schema.org/url> "http://www.levanteud.com" .
+<http://example.org/team/619> <http://www.w3.org/2000/01/rdf-schema#label> "619" .
+<http://example.org/team/619> <http://schema.org/name> "Levante Unión Deportiva" .
+<http://example.org/team/619> <http://schema.org/additionalName> "Les Granotes" .
+<http://example.org/pl_id/Calle%20San%20Vicente%20de%20Paúl%2C%204446019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/619> <http://schema.org/telephone> "+34 (902) 220304" .
+
+<http://example.org/pl_id/Paseo%20de%20Martiricos%2C%20s/n29011> <http://schema.org/postalCode> "29011" .
+<http://example.org/pl_id/Paseo%20de%20Martiricos%2C%20s/n29011> <http://schema.org/area> "Málaga" .
+<http://example.org/team/620> <http://www.w3.org/2000/01/rdf-schema#label> "620" .
+<http://example.org/team/620> <http://schema.org/url> "http://www.malagacf.es" .
+<http://example.org/team/620> <http://schema.org/email> "administracion@malagacf.es" .
+<http://example.org/team/620> <http://schema.org/name> "Málaga Club de Fútbol" .
+<http://example.org/team/620> <http://schema.org/telephone> "+34 (952) 104488" .
+<http://example.org/team/620> <http://schema.org/fromLocation> <http://example.org/pl_id/Paseo%20de%20Martiricos%2C%20s/n29011> .
+<http://example.org/pl_id/Paseo%20de%20Martiricos%2C%20s/n29011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/620> <http://schema.org/additionalName> "Los Boquerones" .
+<http://example.org/team/620> <http://schema.org/alternateName> "Málaga CF" .
+<http://example.org/team/620> <http://schema.org/faxNumber> "+34 (952) 613737" .
+<http://example.org/team/620> <http://schema.org/foundingDate> "1933" .
+<http://example.org/pl_id/Paseo%20de%20Martiricos%2C%20s/n29011> <http://schema.org/address> "Paseo de Martiricos, s/n" .
+
+<http://example.org/pl_id/Calle%20del%20Payaso%20Fofó%2C%20s/n28018> <http://schema.org/address> "Calle del Payaso Fofó, s/n" .
+<http://example.org/team/621> <http://schema.org/foundingDate> "1924" .
+<http://example.org/team/621> <http://schema.org/additionalName> "Los Franjirrojos" .
+<http://example.org/pl_id/Calle%20del%20Payaso%20Fofó%2C%20s/n28018> <http://schema.org/area> "Madrid" .
+<http://example.org/team/621> <http://schema.org/alternateName> "Rayo Vallecano de Madrid" .
+<http://example.org/team/621> <http://schema.org/email> "info@rayovallecano.es" .
+<http://example.org/pl_id/Calle%20del%20Payaso%20Fofó%2C%20s/n28018> <http://schema.org/postalCode> "28018" .
+<http://example.org/team/621> <http://schema.org/faxNumber> "+34 (914) 771754" .
+<http://example.org/team/621> <http://schema.org/name> "Rayo Vallecano de Madrid" .
+<http://example.org/team/621> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20del%20Payaso%20Fofó%2C%20s/n28018> .
+<http://example.org/team/621> <http://www.w3.org/2000/01/rdf-schema#label> "621" .
+<http://example.org/team/621> <http://schema.org/additionalName> "Los Vallecanos" .
+<http://example.org/team/621> <http://schema.org/telephone> "+34 (914) 782253" .
+<http://example.org/pl_id/Calle%20del%20Payaso%20Fofó%2C%20s/n28018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/621> <http://schema.org/url> "http://www.rayovallecano.es" .
+
+<http://example.org/team/622> <http://schema.org/name> "Real Club Celta de Vigo" .
+<http://example.org/team/622> <http://www.w3.org/2000/01/rdf-schema#label> "622" .
+<http://example.org/team/622> <http://schema.org/alternateName> "RC Celta de Vigo" .
+<http://example.org/pl_id/Calle%20del%20Conde%20de%20Gondomar%2C%20136203> <http://schema.org/address> "Calle del Conde de Gondomar, 1" .
+<http://example.org/team/622> <http://schema.org/additionalName> "Os Célticos" .
+<http://example.org/team/622> <http://schema.org/faxNumber> "+34 (986) 292040" .
+<http://example.org/team/622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/622> <http://schema.org/url> "http://www.celtavigo.net" .
+<http://example.org/team/622> <http://schema.org/telephone> "+34 (986) 110900" .
+<http://example.org/team/622> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20del%20Conde%20de%20Gondomar%2C%20136203> .
+<http://example.org/team/622> <http://schema.org/email> "comunicacion@celtavigo.net" .
+<http://example.org/team/622> <http://schema.org/foundingDate> "1923" .
+<http://example.org/pl_id/Calle%20del%20Conde%20de%20Gondomar%2C%20136203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Calle%20del%20Conde%20de%20Gondomar%2C%20136203> <http://schema.org/postalCode> "36203" .
+<http://example.org/pl_id/Calle%20del%20Conde%20de%20Gondomar%2C%20136203> <http://schema.org/area> "Vigo" .
+<http://example.org/team/622> <http://schema.org/additionalName> "Os Celestes" .
+
+<http://example.org/team/623> <http://schema.org/additionalName> "Blanquiazules" .
+<http://example.org/pl_id/Plaza%20de%20Pontevedra%2C%201915003> <http://schema.org/address> "Plaza de Pontevedra, 19" .
+<http://example.org/team/623> <http://schema.org/faxNumber> "+34 (981) 265919" .
+<http://example.org/team/623> <http://schema.org/foundingDate> "1906" .
+<http://example.org/team/623> <http://schema.org/alternateName> "RC Deportivo La Coruña" .
+<http://example.org/team/623> <http://schema.org/name> "Real Club Deportivo de La Coruña" .
+<http://example.org/pl_id/Plaza%20de%20Pontevedra%2C%201915003> <http://schema.org/postalCode> "15003" .
+<http://example.org/team/623> <http://www.w3.org/2000/01/rdf-schema#label> "623" .
+<http://example.org/team/623> <http://schema.org/url> "http://www.rcdeportivo.es" .
+<http://example.org/team/623> <http://schema.org/telephone> "+34 (981) 259500" .
+<http://example.org/pl_id/Plaza%20de%20Pontevedra%2C%201915003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/623> <http://schema.org/email> "deportivo@rcdeportivo.es" .
+<http://example.org/team/623> <http://schema.org/fromLocation> <http://example.org/pl_id/Plaza%20de%20Pontevedra%2C%201915003> .
+<http://example.org/team/623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Plaza%20de%20Pontevedra%2C%201915003> <http://schema.org/area> "A Coruña" .
+<http://example.org/team/623> <http://schema.org/additionalName> "Dépor" .
+
+<http://example.org/pl_id/Avenida%20Baix%20Llobregat%2C%2010008940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Avenida%20Baix%20Llobregat%2C%2010008940> <http://schema.org/address> "Avenida Baix Llobregat, 100" .
+<http://example.org/team/624> <http://schema.org/fromLocation> <http://example.org/pl_id/Avenida%20Baix%20Llobregat%2C%2010008940> .
+<http://example.org/pl_id/Avenida%20Baix%20Llobregat%2C%2010008940> <http://schema.org/postalCode> "08940" .
+<http://example.org/team/624> <http://schema.org/name> "Reial Club Deportiu Espanyol de Barcelona" .
+<http://example.org/team/624> <http://schema.org/additionalName> "Mágico" .
+<http://example.org/team/624> <http://schema.org/faxNumber> "+34 (934) 254552" .
+<http://example.org/team/624> <http://schema.org/url> "http://www.rcdespanyol.com" .
+<http://example.org/team/624> <http://schema.org/email> "info@rcdespanyol" .
+<http://example.org/team/624> <http://schema.org/telephone> "+34 (932) 927700" .
+<http://example.org/team/624> <http://www.w3.org/2000/01/rdf-schema#label> "624" .
+<http://example.org/team/624> <http://schema.org/additionalName> "Blanquiblaus" .
+<http://example.org/team/624> <http://schema.org/alternateName> "RCD Espanyol de Barcelona" .
+<http://example.org/team/624> <http://schema.org/foundingDate> "1900" .
+<http://example.org/pl_id/Avenida%20Baix%20Llobregat%2C%2010008940> <http://schema.org/area> "Cornellà de Llobregat" .
+<http://example.org/team/624> <http://schema.org/additionalName> "Periquitos" .
+
+<http://example.org/team/625> <http://www.w3.org/2000/01/rdf-schema#label> "625" .
+<http://example.org/team/625> <http://schema.org/foundingDate> "1907" .
+<http://example.org/pl_id/Avenida%20de%20Heliópolis%2C%20s/n41012> <http://schema.org/postalCode> "41012" .
+<http://example.org/team/625> <http://schema.org/email> "info@realbetisbalompie.es" .
+<http://example.org/pl_id/Avenida%20de%20Heliópolis%2C%20s/n41012> <http://schema.org/area> "Sevilla" .
+<http://example.org/team/625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/625> <http://schema.org/url> "http://www.realbetisbalompie.es" .
+<http://example.org/team/625> <http://schema.org/additionalName> "Los Verdiblancos" .
+<http://example.org/team/625> <http://schema.org/telephone> "+34 (902) 191907" .
+<http://example.org/pl_id/Avenida%20de%20Heliópolis%2C%20s/n41012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/625> <http://schema.org/additionalName> "El Glorioso" .
+<http://example.org/team/625> <http://schema.org/additionalName> "Béticos" .
+<http://example.org/team/625> <http://schema.org/alternateName> "Real Betis Balompié" .
+<http://example.org/team/625> <http://schema.org/fromLocation> <http://example.org/pl_id/Avenida%20de%20Heliópolis%2C%20s/n41012> .
+<http://example.org/pl_id/Avenida%20de%20Heliópolis%2C%20s/n41012> <http://schema.org/address> "Avenida de Heliópolis, s/n" .
+
+<http://example.org/pl_id/Anoeta%20Pasalekua%2C%20120014> <http://schema.org/area> "San Sebastián" .
+<http://example.org/team/626> <http://schema.org/fromLocation> <http://example.org/pl_id/Anoeta%20Pasalekua%2C%20120014> .
+<http://example.org/pl_id/Anoeta%20Pasalekua%2C%20120014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/626> <http://schema.org/alternateName> "Real Sociedad de Fútbol" .
+<http://example.org/team/626> <http://schema.org/telephone> "+34 (943) 462833" .
+<http://example.org/team/626> <http://www.w3.org/2000/01/rdf-schema#label> "626" .
+<http://example.org/pl_id/Anoeta%20Pasalekua%2C%20120014> <http://schema.org/address> "Anoeta Pasalekua, 1" .
+<http://example.org/team/626> <http://schema.org/email> "realsoc@realsociedad.com" .
+<http://example.org/team/626> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/626> <http://schema.org/faxNumber> "+34 (943) 458941" .
+<http://example.org/team/626> <http://schema.org/additionalName> "Txuriurdin" .
+<http://example.org/team/626> <http://schema.org/url> "http://www.realsociedad.com" .
+<http://example.org/team/626> <http://schema.org/additionalName> "Erreala" .
+<http://example.org/team/626> <http://schema.org/foundingDate> "1903" .
+<http://example.org/pl_id/Anoeta%20Pasalekua%2C%20120014> <http://schema.org/postalCode> "20014" .
+<http://example.org/team/626> <http://schema.org/name> "Real Sociedad de Fútbol" .
+
+<http://example.org/team/627> <http://schema.org/alternateName> "Real Sporting de Gijón" .
+<http://example.org/team/627> <http://schema.org/telephone> "+34 (985) 167677" .
+<http://example.org/pl_id/Camino%20de%20Mareo%20a%20Granda%2C%2064533390> <http://schema.org/area> "Gijon" .
+<http://example.org/team/627> <http://schema.org/additionalName> "Sportinguistas" .
+<http://example.org/team/627> <http://schema.org/url> "http://www.realsporting.com" .
+<http://example.org/team/627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Camino%20de%20Mareo%20a%20Granda%2C%2064533390> <http://schema.org/address> "Camino de Mareo a Granda, 645" .
+<http://example.org/team/627> <http://schema.org/faxNumber> "+34 (985) 167632" .
+<http://example.org/pl_id/Camino%20de%20Mareo%20a%20Granda%2C%2064533390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/627> <http://schema.org/fromLocation> <http://example.org/pl_id/Camino%20de%20Mareo%20a%20Granda%2C%2064533390> .
+<http://example.org/team/627> <http://schema.org/email> "efmareo@realsporting.com" .
+<http://example.org/pl_id/Camino%20de%20Mareo%20a%20Granda%2C%2064533390> <http://schema.org/postalCode> "33390" .
+<http://example.org/team/627> <http://www.w3.org/2000/01/rdf-schema#label> "627" .
+<http://example.org/team/627> <http://schema.org/foundingDate> "1905" .
+<http://example.org/team/627> <http://schema.org/additionalName> "Rojiblancos" .
+
+<http://example.org/team/628> <http://schema.org/email> "sdeibar@sdeibar.com" .
+<http://example.org/team/628> <http://schema.org/additionalName> "Armeros" .
+<http://example.org/team/628> <http://schema.org/alternateName> "SD Eibar" .
+<http://example.org/team/628> <http://schema.org/name> "Sociedad Deportiva Eibar" .
+<http://example.org/team/628> <http://schema.org/fromLocation> <http://example.org/pl_id/Ipurua%20Kalea%2C%20220600> .
+<http://example.org/pl_id/Ipurua%20Kalea%2C%20220600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/628> <http://www.w3.org/2000/01/rdf-schema#label> "628" .
+<http://example.org/team/628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Ipurua%20Kalea%2C%20220600> <http://schema.org/address> "Ipurua Kalea, 2" .
+<http://example.org/team/628> <http://schema.org/url> "http://www.sdeibar.com" .
+<http://example.org/team/628> <http://schema.org/foundingDate> "1940" .
+<http://example.org/team/628> <http://schema.org/faxNumber> "+34 (943) 202606" .
+<http://example.org/team/628> <http://schema.org/telephone> "+34 (943) 201831" .
+<http://example.org/pl_id/Ipurua%20Kalea%2C%20220600> <http://schema.org/postalCode> "20600" .
+<http://example.org/pl_id/Ipurua%20Kalea%2C%20220600> <http://schema.org/area> "Eibar" .
+
+<http://example.org/team/629> <http://schema.org/email> "comunicación@udlaspalmas.es" .
+<http://example.org/pl_id/Calle%20Pío%20XII%2C%202935005> <http://schema.org/postalCode> "35005" .
+<http://example.org/team/629> <http://schema.org/url> "http://www.udlaspalmas.es" .
+<http://example.org/team/629> <http://schema.org/faxNumber> "+34 (928) 246714" .
+<http://example.org/team/629> <http://schema.org/telephone> "+34 (928) 241342" .
+<http://example.org/pl_id/Calle%20Pío%20XII%2C%202935005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/629> <http://www.w3.org/2000/01/rdf-schema#label> "629" .
+<http://example.org/team/629> <http://schema.org/foundingDate> "1949" .
+<http://example.org/team/629> <http://schema.org/name> "Unión Deportiva Las Palmas" .
+<http://example.org/team/629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Calle%20Pío%20XII%2C%202935005> <http://schema.org/area> "Las Palmas de Gran Canaria" .
+<http://example.org/pl_id/Calle%20Pío%20XII%2C%202935005> <http://schema.org/address> "Calle Pío XII, 29" .
+<http://example.org/team/629> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20Pío%20XII%2C%202935005> .
+<http://example.org/team/629> <http://schema.org/alternateName> "UD Las Palmas" .
+<http://example.org/team/629> <http://schema.org/additionalName> "Los Amarillos" .
+
+<http://example.org/team/630> <http://www.w3.org/2000/01/rdf-schema#label> "630" .
+<http://example.org/pl_id/Camino%20Miralcamp%2C%20s/n12540> <http://schema.org/address> "Camino Miralcamp, s/n" .
+<http://example.org/team/630> <http://schema.org/additionalName> "El Submarino Amarillo" .
+<http://example.org/team/630> <http://schema.org/foundingDate> "1923" .
+<http://example.org/team/630> <http://schema.org/email> "villarrealcf@villarrealcf.es" .
+<http://example.org/team/630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/630> <http://schema.org/name> "Villarreal Club de Fútbol" .
+<http://example.org/team/630> <http://schema.org/faxNumber> "+34 (964) 500167" .
+<http://example.org/team/630> <http://schema.org/url> "http://www.villarrealcf.es" .
+<http://example.org/pl_id/Camino%20Miralcamp%2C%20s/n12540> <http://schema.org/area> "Villarreal" .
+<http://example.org/team/630> <http://schema.org/alternateName> "Villarreal CF" .
+<http://example.org/team/630> <http://schema.org/fromLocation> <http://example.org/pl_id/Camino%20Miralcamp%2C%20s/n12540> .
+<http://example.org/pl_id/Camino%20Miralcamp%2C%20s/n12540> <http://schema.org/postalCode> "12540" .
+<http://example.org/pl_id/Camino%20Miralcamp%2C%20s/n12540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/630> <http://schema.org/telephone> "+34 (964) 500250" .
+
+<http://example.org/team/661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/661> <http://schema.org/additionalName> "Ceo" .
+<http://example.org/team/661> <http://schema.org/additionalName> "Gialloblu" .
+<http://example.org/team/661> <http://www.w3.org/2000/01/rdf-schema#label> "661" .
+<http://example.org/team/661> <http://schema.org/additionalName> "Mussi Volanti" .
+<http://example.org/team/661> <http://schema.org/telephone> "+39 (045) 575779" .
+<http://example.org/team/661> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Luigi%20Galvani%20337138> .
+<http://example.org/team/661> <http://schema.org/name> "Associazione Calcio Chievo Verona" .
+<http://example.org/pl_id/Via%20Luigi%20Galvani%20337138> <http://schema.org/address> "Via Luigi Galvani 3" .
+<http://example.org/team/661> <http://schema.org/faxNumber> "+39 (045) 562298" .
+<http://example.org/pl_id/Via%20Luigi%20Galvani%20337138> <http://schema.org/postalCode> "37138" .
+<http://example.org/pl_id/Via%20Luigi%20Galvani%20337138> <http://schema.org/area> "Verona" .
+<http://example.org/team/661> <http://schema.org/email> "info@chievoverona.it" .
+<http://example.org/team/661> <http://schema.org/url> "http://www.chievoverona.it" .
+<http://example.org/team/661> <http://schema.org/alternateName> "AC Chievo Verona" .
+<http://example.org/pl_id/Via%20Luigi%20Galvani%20337138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/661> <http://schema.org/foundingDate> "1929" .
+
+<http://example.org/team/662> <http://schema.org/additionalName> "Rossoneri" .
+<http://example.org/team/662> <http://schema.org/telephone> "+39 (02) 62281" .
+<http://example.org/team/662> <http://schema.org/faxNumber> "+39 (02) 6598876" .
+<http://example.org/pl_id/Via%20Filippo%20Turati%203%2020121> <http://schema.org/address> "Via Filippo Turati 3 " .
+<http://example.org/pl_id/Via%20Filippo%20Turati%203%2020121> <http://schema.org/area> "Milano" .
+<http://example.org/team/662> <http://www.w3.org/2000/01/rdf-schema#label> "662" .
+<http://example.org/team/662> <http://schema.org/alternateName> "AC Milan" .
+<http://example.org/team/662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/662> <http://schema.org/name> "Associazione Calcio Milan" .
+<http://example.org/team/662> <http://schema.org/url> "http://www.acmilan.com" .
+<http://example.org/team/662> <http://schema.org/additionalName> "Diavolo" .
+<http://example.org/team/662> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Filippo%20Turati%203%2020121> .
+<http://example.org/team/662> <http://schema.org/foundingDate> "1899" .
+<http://example.org/pl_id/Via%20Filippo%20Turati%203%2020121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Via%20Filippo%20Turati%203%2020121> <http://schema.org/postalCode> "20121" .
+
+<http://example.org/team/663> <http://schema.org/email> "segreteria@acffiorentina.it" .
+<http://example.org/team/663> <http://schema.org/foundingDate> "1926" .
+<http://example.org/team/663> <http://schema.org/name> "Associazione Calcio Firenze Fiorentina " .
+<http://example.org/pl_id/Viale%20Manfredo%20Fanti%20450137> <http://schema.org/area> "Firenze" .
+<http://example.org/team/663> <http://schema.org/faxNumber> "+39 (055) 5030159" .
+<http://example.org/pl_id/Viale%20Manfredo%20Fanti%20450137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Viale%20Manfredo%20Fanti%20450137> <http://schema.org/postalCode> "50137" .
+<http://example.org/team/663> <http://schema.org/fromLocation> <http://example.org/pl_id/Viale%20Manfredo%20Fanti%20450137> .
+<http://example.org/team/663> <http://schema.org/additionalName> "Viola" .
+<http://example.org/team/663> <http://schema.org/additionalName> "Gigliati" .
+<http://example.org/team/663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/663> <http://schema.org/alternateName> "ACF Fiorentina" .
+<http://example.org/team/663> <http://schema.org/url> "http://www.acffiorentina.it" .
+<http://example.org/team/663> <http://www.w3.org/2000/01/rdf-schema#label> "663" .
+<http://example.org/team/663> <http://schema.org/telephone> "+39 (055) 5030190" .
+<http://example.org/pl_id/Viale%20Manfredo%20Fanti%20450137> <http://schema.org/address> "Viale Manfredo Fanti 4" .
+
+<http://example.org/team/664> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/664> <http://schema.org/name> "Atalanta Bergamasca Calcio" .
+<http://example.org/team/664> <http://schema.org/alternateName> "Atalanta BC" .
+<http://example.org/team/664> <http://www.w3.org/2000/01/rdf-schema#label> "664" .
+<http://example.org/team/664> <http://schema.org/faxNumber> "+39 (035) 4186247" .
+<http://example.org/team/664> <http://schema.org/additionalName> "Orobici" .
+<http://example.org/team/664> <http://schema.org/fromLocation> <http://example.org/pl_id/Corso%20Europa%2C%2046%2C%20Zingonia24040> .
+<http://example.org/team/664> <http://schema.org/url> "http://www.atalanta.it" .
+<http://example.org/team/664> <http://schema.org/additionalName> "Nerazzurri" .
+<http://example.org/pl_id/Corso%20Europa%2C%2046%2C%20Zingonia24040> <http://schema.org/address> "Corso Europa, 46, Zingonia" .
+<http://example.org/pl_id/Corso%20Europa%2C%2046%2C%20Zingonia24040> <http://schema.org/area> "Ciserano" .
+<http://example.org/team/664> <http://schema.org/email> "info@atalanta.it" .
+<http://example.org/team/664> <http://schema.org/telephone> "+39 (035) 4186211" .
+<http://example.org/team/664> <http://schema.org/foundingDate> "1904" .
+<http://example.org/pl_id/Corso%20Europa%2C%2046%2C%20Zingonia24040> <http://schema.org/postalCode> "24040" .
+<http://example.org/team/664> <http://schema.org/additionalName> "La Dea" .
+<http://example.org/pl_id/Corso%20Europa%2C%2046%2C%20Zingonia24040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+
+<http://example.org/team/665> <http://schema.org/name> "Bologna Football Club 1909" .
+<http://example.org/pl_id/Via%20Casteldebole%201040132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/665> <http://schema.org/url> "http://www.bolognafc.it" .
+<http://example.org/team/665> <http://schema.org/faxNumber> "+39 (051) 6111122" .
+<http://example.org/pl_id/Via%20Casteldebole%201040132> <http://schema.org/postalCode> "40132" .
+<http://example.org/team/665> <http://schema.org/additionalName> "Felsinei" .
+<http://example.org/team/665> <http://schema.org/alternateName> "Bologna FC 1909" .
+<http://example.org/team/665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/665> <http://schema.org/foundingDate> "1909" .
+<http://example.org/pl_id/Via%20Casteldebole%201040132> <http://schema.org/area> "Bologna" .
+<http://example.org/team/665> <http://schema.org/additionalName> "Rossoblu" .
+<http://example.org/team/665> <http://schema.org/telephone> "+39 (051) 6111111" .
+<http://example.org/team/665> <http://www.w3.org/2000/01/rdf-schema#label> "665" .
+<http://example.org/team/665> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Casteldebole%201040132> .
+<http://example.org/team/665> <http://schema.org/email> "comunicazione@bolognafc.it" .
+<http://example.org/pl_id/Via%20Casteldebole%201040132> <http://schema.org/address> "Via Casteldebole 10" .
+
+<http://example.org/pl_id/Via%20Carlo%20Marx%2026%2041012> <http://schema.org/address> "Via Carlo Marx 26 " .
+<http://example.org/pl_id/Via%20Carlo%20Marx%2026%2041012> <http://schema.org/area> "Carpi" .
+<http://example.org/team/666> <http://schema.org/name> "Carpi Football Club 1909" .
+<http://example.org/team/666> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Carlo%20Marx%2026%2041012> .
+<http://example.org/pl_id/Via%20Carlo%20Marx%2026%2041012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/666> <http://schema.org/telephone> "+39 (059) 6228195" .
+<http://example.org/pl_id/Via%20Carlo%20Marx%2026%2041012> <http://schema.org/postalCode> "41012" .
+<http://example.org/team/666> <http://schema.org/url> "http://www.carpifc1909.it" .
+<http://example.org/team/666> <http://schema.org/email> "segreteria@carpifc1909.it" .
+<http://example.org/team/666> <http://schema.org/foundingDate> "1909" .
+<http://example.org/team/666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/666> <http://schema.org/alternateName> "Carpi FC 1909" .
+<http://example.org/team/666> <http://www.w3.org/2000/01/rdf-schema#label> "666" .
+
+<http://example.org/team/667> <http://schema.org/fromLocation> <http://example.org/pl_id/Piazza%20Matteotti50053> .
+<http://example.org/team/667> <http://www.w3.org/2000/01/rdf-schema#label> "667" .
+<http://example.org/team/667> <http://schema.org/name> "Empoli Football Club" .
+<http://example.org/team/667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Piazza%20Matteotti50053> <http://schema.org/area> "Empoli" .
+<http://example.org/team/667> <http://schema.org/faxNumber> "+39 (05) 7172213" .
+<http://example.org/pl_id/Piazza%20Matteotti50053> <http://schema.org/postalCode> "50053" .
+<http://example.org/team/667> <http://schema.org/additionalName> "Azzurri" .
+<http://example.org/team/667> <http://schema.org/telephone> "+39 (05) 7172212" .
+<http://example.org/team/667> <http://schema.org/email> "empoli@lega-calcio.it" .
+<http://example.org/team/667> <http://schema.org/alternateName> "Empoli FC" .
+<http://example.org/pl_id/Piazza%20Matteotti50053> <http://schema.org/address> "Piazza Matteotti" .
+<http://example.org/team/667> <http://schema.org/foundingDate> "1920" .
+<http://example.org/team/667> <http://schema.org/url> "http://www.empolicalcio.net" .
+<http://example.org/pl_id/Piazza%20Matteotti50053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+
+<http://example.org/team/668> <http://schema.org/telephone> "+39 (02) 77151" .
+<http://example.org/team/668> <http://schema.org/email> "segreteriaccic@inter.it" .
+<http://example.org/pl_id/Corso%20Vittorio%20Emanuele%20II%20920122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Corso%20Vittorio%20Emanuele%20II%20920122> <http://schema.org/area> "Milano" .
+<http://example.org/team/668> <http://schema.org/additionalName> "Il Biscione" .
+<http://example.org/team/668> <http://schema.org/fromLocation> <http://example.org/pl_id/Corso%20Vittorio%20Emanuele%20II%20920122> .
+<http://example.org/team/668> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/668> <http://schema.org/url> "http://www.inter.it" .
+<http://example.org/team/668> <http://schema.org/foundingDate> "1908" .
+<http://example.org/team/668> <http://schema.org/faxNumber> "+39 (02) 781514" .
+<http://example.org/team/668> <http://schema.org/alternateName> "FC Internazionale Milano" .
+<http://example.org/team/668> <http://www.w3.org/2000/01/rdf-schema#label> "668" .
+<http://example.org/team/668> <http://schema.org/additionalName> "La Beneamata" .
+<http://example.org/pl_id/Corso%20Vittorio%20Emanuele%20II%20920122> <http://schema.org/postalCode> "20122" .
+<http://example.org/pl_id/Corso%20Vittorio%20Emanuele%20II%20920122> <http://schema.org/address> "Corso Vittorio Emanuele II 9" .
+
+<http://example.org/team/669> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Marittima%2C%20203100> .
+<http://example.org/pl_id/Via%20Marittima%2C%20203100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/669> <http://schema.org/name> "Frosinone Calcio" .
+<http://example.org/team/669> <http://schema.org/additionalName> "Ciociari" .
+<http://example.org/team/669> <http://schema.org/url> "http://www.frosinonecalcio.com" .
+<http://example.org/team/669> <http://schema.org/foundingDate> "1912" .
+<http://example.org/pl_id/Via%20Marittima%2C%20203100> <http://schema.org/area> "Frosinone" .
+<http://example.org/team/669> <http://schema.org/additionalName> "Gialloazzurri" .
+<http://example.org/team/669> <http://schema.org/additionalName> "Anarini" .
+<http://example.org/team/669> <http://schema.org/telephone> "+39 (0775) 822013" .
+<http://example.org/team/669> <http://schema.org/faxNumber> "+39 (0775) 820614" .
+<http://example.org/pl_id/Via%20Marittima%2C%20203100> <http://schema.org/address> "Via Marittima, 2" .
+<http://example.org/pl_id/Via%20Marittima%2C%20203100> <http://schema.org/postalCode> "03100" .
+<http://example.org/team/669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/669> <http://www.w3.org/2000/01/rdf-schema#label> "669" .
+<http://example.org/team/669> <http://schema.org/alternateName> "Frosinone Calcio" .
+<http://example.org/team/669> <http://schema.org/email> "frosinonecalcio@libero.it" .
+
+<http://example.org/team/670> <http://schema.org/email> "genoa@lega-calcio.it" .
+<http://example.org/team/670> <http://schema.org/faxNumber> "+39 (010) 618344" .
+<http://example.org/team/670> <http://schema.org/name> "Genoa Cricket and Football Club" .
+<http://example.org/pl_id/Via%20Ronchi%2C%206716155> <http://schema.org/address> "Via Ronchi, 67" .
+<http://example.org/team/670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/670> <http://schema.org/additionalName> "Grifone" .
+<http://example.org/pl_id/Via%20Ronchi%2C%206716155> <http://schema.org/postalCode> "16155" .
+<http://example.org/team/670> <http://schema.org/telephone> "+39 (010) 612831" .
+<http://example.org/team/670> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Ronchi%2C%206716155> .
+<http://example.org/team/670> <http://schema.org/foundingDate> "1893" .
+<http://example.org/team/670> <http://schema.org/additionalName> "Grifo" .
+<http://example.org/pl_id/Via%20Ronchi%2C%206716155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Via%20Ronchi%2C%206716155> <http://schema.org/area> "Genua" .
+<http://example.org/team/670> <http://www.w3.org/2000/01/rdf-schema#label> "670" .
+<http://example.org/team/670> <http://schema.org/alternateName> "Genoa CFC" .
+<http://example.org/team/670> <http://schema.org/additionalName> "Zena" .
+<http://example.org/team/670> <http://schema.org/url> "http://www.genoacfc.it" .
+
+<http://example.org/team/671> <http://schema.org/email> "ufficiostampa@hellasverona.it" .
+<http://example.org/team/671> <http://schema.org/alternateName> "Hellas Verona FC" .
+<http://example.org/team/671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/671> <http://www.w3.org/2000/01/rdf-schema#label> "671" .
+<http://example.org/pl_id/Via%20Evangelista%20Torricelli%2C%203737136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/671> <http://schema.org/foundingDate> "1903" .
+<http://example.org/team/671> <http://schema.org/telephone> "+39 (045) 8186111" .
+<http://example.org/team/671> <http://schema.org/additionalName> "Butei" .
+<http://example.org/team/671> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Evangelista%20Torricelli%2C%203737136> .
+<http://example.org/team/671> <http://schema.org/url> "http://www.hellasverona.it" .
+<http://example.org/team/671> <http://schema.org/additionalName> "Scaligeri" .
+<http://example.org/team/671> <http://schema.org/name> "Hellas Verona Football Club" .
+<http://example.org/pl_id/Via%20Evangelista%20Torricelli%2C%203737136> <http://schema.org/address> "Via Evangelista Torricelli, 37" .
+<http://example.org/pl_id/Via%20Evangelista%20Torricelli%2C%203737136> <http://schema.org/postalCode> "37136" .
+<http://example.org/pl_id/Via%20Evangelista%20Torricelli%2C%203737136> <http://schema.org/area> "Verona" .
+<http://example.org/team/671> <http://schema.org/additionalName> "Mastini" .
+<http://example.org/team/671> <http://schema.org/faxNumber> "+39 (045) 8186112" .
+
+<http://example.org/team/672> <http://schema.org/additionalName> "Partenopei" .
+<http://example.org/pl_id/Centro%20Tecnico%20di%20Castel%20Volturno%2C%20Via%20S.S.%20Domitana%2C%20Km%203581030> <http://schema.org/area> "Castel Volturno" .
+<http://example.org/team/672> <http://schema.org/email> "infocalcio@sscn.it" .
+<http://example.org/team/672> <http://www.w3.org/2000/01/rdf-schema#label> "672" .
+<http://example.org/team/672> <http://schema.org/foundingDate> "1904" .
+<http://example.org/team/672> <http://schema.org/alternateName> "SSC Napoli" .
+<http://example.org/team/672> <http://schema.org/fromLocation> <http://example.org/pl_id/Centro%20Tecnico%20di%20Castel%20Volturno%2C%20Via%20S.S.%20Domitana%2C%20Km%203581030> .
+<http://example.org/team/672> <http://schema.org/name> "Società Sportiva Calcio Napoli" .
+<http://example.org/pl_id/Centro%20Tecnico%20di%20Castel%20Volturno%2C%20Via%20S.S.%20Domitana%2C%20Km%203581030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Centro%20Tecnico%20di%20Castel%20Volturno%2C%20Via%20S.S.%20Domitana%2C%20Km%203581030> <http://schema.org/postalCode> "81030" .
+<http://example.org/pl_id/Centro%20Tecnico%20di%20Castel%20Volturno%2C%20Via%20S.S.%20Domitana%2C%20Km%203581030> <http://schema.org/address> "Centro Tecnico di Castel Volturno, Via S.S. Domitana, Km 35" .
+<http://example.org/team/672> <http://schema.org/url> "http://www.sscnapoli.it" .
+<http://example.org/team/672> <http://schema.org/telephone> "+39 (081) 5095344" .
+<http://example.org/team/672> <http://schema.org/faxNumber> "+39 (081) 5093917" .
+<http://example.org/team/672> <http://schema.org/additionalName> "Azzurri" .
+
+<http://example.org/team/673> <http://schema.org/alternateName> "Torino FC" .
+<http://example.org/team/673> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Arcivescovado%20110122> .
+<http://example.org/team/673> <http://schema.org/url> "http://www.torinofc.it" .
+<http://example.org/pl_id/Via%20Arcivescovado%20110122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Via%20Arcivescovado%20110122> <http://schema.org/area> "Torino" .
+<http://example.org/pl_id/Via%20Arcivescovado%20110122> <http://schema.org/address> "Via Arcivescovado 1" .
+<http://example.org/team/673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/673> <http://schema.org/foundingDate> "1894" .
+<http://example.org/team/673> <http://schema.org/name> "Torino Football Club" .
+<http://example.org/team/673> <http://schema.org/telephone> "+39 (01) 11970034" .
+<http://example.org/pl_id/Via%20Arcivescovado%20110122> <http://schema.org/postalCode> "10122" .
+<http://example.org/team/673> <http://www.w3.org/2000/01/rdf-schema#label> "673" .
+<http://example.org/team/673> <http://schema.org/faxNumber> "+39 (01) 11970034" .
+<http://example.org/team/673> <http://schema.org/email> "info@toro.it" .
+
+<http://example.org/team/674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/674> <http://schema.org/name> "Unione Calcio Sampdoria" .
+<http://example.org/team/674> <http://www.w3.org/2000/01/rdf-schema#label> "674" .
+<http://example.org/team/674> <http://schema.org/additionalName> "Il Doria" .
+<http://example.org/pl_id/Piazza%20Borgo%20Pila%2C%203916129> <http://schema.org/postalCode> "16129" .
+<http://example.org/team/674> <http://schema.org/fromLocation> <http://example.org/pl_id/Piazza%20Borgo%20Pila%2C%203916129> .
+<http://example.org/team/674> <http://schema.org/additionalName> "I Blucerchiati" .
+<http://example.org/pl_id/Piazza%20Borgo%20Pila%2C%203916129> <http://schema.org/area> "Genova" .
+<http://example.org/pl_id/Piazza%20Borgo%20Pila%2C%203916129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/674> <http://schema.org/additionalName> "La Samp" .
+<http://example.org/team/674> <http://schema.org/url> "http://www.sampdoria.it" .
+<http://example.org/team/674> <http://schema.org/foundingDate> "1946" .
+<http://example.org/team/674> <http://schema.org/alternateName> "UC Sampdoria" .
+<http://example.org/team/674> <http://schema.org/telephone> "+39 (010) 5316711" .
+<http://example.org/pl_id/Piazza%20Borgo%20Pila%2C%203916129> <http://schema.org/address> "Piazza Borgo Pila, 39" .
+<http://example.org/team/674> <http://schema.org/email> "info@sampdoria.it" .
+<http://example.org/team/674> <http://schema.org/faxNumber> "+39 (010) 5316777" .
+
+<http://example.org/team/675> <http://schema.org/telephone> "+39 (0432) 544911" .
+<http://example.org/team/675> <http://schema.org/alternateName> "Udinese Calcio" .
+<http://example.org/pl_id/Via%20Agostino%20e%20Angelo%20Candolini%20233100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/675> <http://schema.org/fromLocation> <http://example.org/pl_id/Via%20Agostino%20e%20Angelo%20Candolini%20233100> .
+<http://example.org/team/675> <http://schema.org/foundingDate> "1896" .
+<http://example.org/team/675> <http://schema.org/url> "http://www.udinese.it" .
+<http://example.org/pl_id/Via%20Agostino%20e%20Angelo%20Candolini%20233100> <http://schema.org/area> "Udine" .
+<http://example.org/team/675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/pl_id/Via%20Agostino%20e%20Angelo%20Candolini%20233100> <http://schema.org/postalCode> "33100" .
+<http://example.org/team/675> <http://www.w3.org/2000/01/rdf-schema#label> "675" .
+<http://example.org/pl_id/Via%20Agostino%20e%20Angelo%20Candolini%20233100> <http://schema.org/address> "Via Agostino e Angelo Candolini 2" .
+<http://example.org/team/675> <http://schema.org/name> "Udinese Calcio" .
+<http://example.org/team/675> <http://schema.org/additionalName> "Friulani" .
+<http://example.org/team/675> <http://schema.org/email> "udinese@udinese.it" .
+<http://example.org/team/675> <http://schema.org/additionalName> "Zebrette" .
+<http://example.org/team/675> <http://schema.org/faxNumber> "+39 (0432) 544933" .
+
+<http://example.org/pl_id/Viale%20del%20Fante%2C%201190146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Viale%20del%20Fante%2C%201190146> <http://schema.org/area> "Palermo" .
+<http://example.org/team/676> <http://schema.org/additionalName> "Rosanero" .
+<http://example.org/team/676> <http://schema.org/name> "Unione Sportiva Città di Palermo" .
+<http://example.org/pl_id/Viale%20del%20Fante%2C%201190146> <http://schema.org/address> "Viale del Fante, 11" .
+<http://example.org/team/676> <http://schema.org/email> "info@ilpalermocalcio.it" .
+<http://example.org/team/676> <http://schema.org/fromLocation> <http://example.org/pl_id/Viale%20del%20Fante%2C%201190146> .
+<http://example.org/team/676> <http://schema.org/additionalName> "Aquile" .
+<http://example.org/team/676> <http://schema.org/url> "http://www.ilpalermocalcio.it" .
+<http://example.org/team/676> <http://schema.org/foundingDate> "1898" .
+<http://example.org/pl_id/Viale%20del%20Fante%2C%201190146> <http://schema.org/postalCode> "90146" .
+<http://example.org/team/676> <http://schema.org/telephone> "+39 (091) 6901211" .
+<http://example.org/team/676> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/676> <http://www.w3.org/2000/01/rdf-schema#label> "676" .
+<http://example.org/team/676> <http://schema.org/alternateName> "US Città di Palermo" .
+<http://example.org/team/676> <http://schema.org/faxNumber> "+39 (091) 6700263" .
+
+<http://example.org/team/677> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/677> <http://www.w3.org/2000/01/rdf-schema#label> "677" .
+<http://example.org/team/677> <http://schema.org/fromLocation> <http://example.org/pl_id/Piazza%20Risorgimento%2C%204741049> .
+<http://example.org/team/677> <http://schema.org/additionalName> "Neroverdi" .
+<http://example.org/pl_id/Piazza%20Risorgimento%2C%204741049> <http://schema.org/postalCode> "41049" .
+<http://example.org/team/677> <http://schema.org/foundingDate> "1922" .
+<http://example.org/team/677> <http://schema.org/faxNumber> "+39 (0536) 881911" .
+<http://example.org/pl_id/Piazza%20Risorgimento%2C%204741049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Piazza%20Risorgimento%2C%204741049> <http://schema.org/area> "Sassuolo" .
+<http://example.org/team/677> <http://schema.org/alternateName> "US Sassuolo Calcio" .
+<http://example.org/team/677> <http://schema.org/telephone> "+39 (0536) 882645" .
+<http://example.org/pl_id/Piazza%20Risorgimento%2C%204741049> <http://schema.org/address> "Piazza Risorgimento, 47" .
+<http://example.org/team/677> <http://schema.org/url> "http://www.sassuolocalcio.it" .
+<http://example.org/team/677> <http://schema.org/additionalName> "Sasòl" .
+<http://example.org/team/677> <http://schema.org/email> "info@sassuolocalcio.it" .
+<http://example.org/team/677> <http://schema.org/name> "Unione Sportiva Sassuolo Calcio" .
+
+<http://example.org/team/972> <http://schema.org/fromLocation> <http://example.org/pl_id/Walton%20StreetHU3%206HU> .
+<http://example.org/team/972> <http://schema.org/foundingDate> "1904" .
+<http://example.org/team/972> <http://schema.org/telephone> "+44 (0870) 8370003" .
+<http://example.org/pl_id/Walton%20StreetHU3%206HU> <http://schema.org/postalCode> "HU3 6HU" .
+<http://example.org/pl_id/Walton%20StreetHU3%206HU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/pl_id/Walton%20StreetHU3%206HU> <http://schema.org/area> "Hull" .
+<http://example.org/team/972> <http://schema.org/additionalName> "The Tigers" .
+<http://example.org/team/972> <http://schema.org/alternateName> "Hull City AFC" .
+<http://example.org/team/972> <http://schema.org/faxNumber> "+44 (01482) 304882" .
+<http://example.org/pl_id/Walton%20StreetHU3%206HU> <http://schema.org/address> "Walton Street" .
+<http://example.org/team/972> <http://www.w3.org/2000/01/rdf-schema#label> "972" .
+<http://example.org/team/972> <http://schema.org/email> "info@hulltigers.com" .
+<http://example.org/team/972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/972> <http://schema.org/name> "Hull City Association Football Club" .
+<http://example.org/team/972> <http://schema.org/url> "http://www.hullcitytigers.com" .
+
+<http://example.org/team/993> <http://schema.org/foundingDate> "1920" .
+<http://example.org/pl_id/Calle%20del%20Sadar%2C%20s/n31006> <http://schema.org/area> "Pamplona" .
+<http://example.org/pl_id/Calle%20del%20Sadar%2C%20s/n31006> <http://schema.org/address> "Calle del Sadar, s/n" .
+<http://example.org/team/993> <http://schema.org/alternateName> "CA Osasuna" .
+<http://example.org/team/993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/993> <http://schema.org/faxNumber> "+34 (948) 151655" .
+<http://example.org/team/993> <http://schema.org/telephone> "+34 (948) 152636" .
+<http://example.org/team/993> <http://schema.org/name> "Club Atlético Osasuna" .
+<http://example.org/team/993> <http://schema.org/email> "osasuna@osasuna.es" .
+<http://example.org/team/993> <http://schema.org/fromLocation> <http://example.org/pl_id/Calle%20del%20Sadar%2C%20s/n31006> .
+<http://example.org/team/993> <http://www.w3.org/2000/01/rdf-schema#label> "993" .
+<http://example.org/pl_id/Calle%20del%20Sadar%2C%20s/n31006> <http://schema.org/postalCode> "31006" .
+<http://example.org/pl_id/Calle%20del%20Sadar%2C%20s/n31006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/993> <http://schema.org/url> "http://www.osasuna.es" .
+<http://example.org/team/993> <http://schema.org/additionalName> "Los Rojillos" .
+
+<http://example.org/team/996> <http://schema.org/fromLocation> <http://example.org/pl_id/Viale%20la%20Plaia%201509123> .
+<http://example.org/pl_id/Viale%20la%20Plaia%201509123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://example.org/team/996> <http://schema.org/name> "Cagliari Calcio" .
+<http://example.org/team/996> <http://schema.org/email> "info@cagliaricalcio.net" .
+<http://example.org/team/996> <http://schema.org/telephone> "+39 (070) 604 201" .
+<http://example.org/team/996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SportsOrganization> .
+<http://example.org/team/996> <http://schema.org/alternateName> "Cagliari Calcio" .
+<http://example.org/team/996> <http://schema.org/url> "http://www.cagliaricalcio.net" .
+<http://example.org/pl_id/Viale%20la%20Plaia%201509123> <http://schema.org/postalCode> "09123" .
+<http://example.org/team/996> <http://www.w3.org/2000/01/rdf-schema#label> "996" .
+<http://example.org/pl_id/Viale%20la%20Plaia%201509123> <http://schema.org/area> "Cagliari" .
+<http://example.org/team/996> <http://schema.org/foundingDate> "1920" .
+<http://example.org/pl_id/Viale%20la%20Plaia%201509123> <http://schema.org/address> "Viale la Plaia 15" .
+<http://example.org/team/996> <http://schema.org/additionalName> "Casteddu" .
+<http://example.org/team/996> <http://schema.org/faxNumber> "+39 (070) 604 2029" .
+
