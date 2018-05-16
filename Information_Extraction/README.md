@@ -1,17 +1,13 @@
 # Information Extraction
 
 To build an RDF, we extract useful data from the soccer news. We extract 
-two entity "Player" and "Team". This will establish the relationship like
- 
-"News" mentions "Player" 
-
-or 
-
-"News" mentions "Team".
+two entity "Player" and "Team". This will establish the relationship like "News" mentions "Player" 
+or News" mentions "Team".
 
 More sophisciated relation extraction is under development. 
 
 **soccer_ner.crfsuite**
+
 This is pre-trained CRF model. We train this model with 100 soccer news with manually annotated using [CRFsuite](https://github.com/scrapinghub/python-crfsuite). 
 
 **ner.py**
